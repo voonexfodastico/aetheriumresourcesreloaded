@@ -31,6 +31,7 @@ public class AetheriumResourcesReloadedModItems {
 	public static final RegistryObject<Item> BLOCK_GLITCH_02 = block(AetheriumResourcesReloadedModBlocks.BLOCK_GLITCH_02);
 	public static final RegistryObject<Item> BLOCK_GLITCH_02_DECORATIVE = block(AetheriumResourcesReloadedModBlocks.BLOCK_GLITCH_02_DECORATIVE);
 	public static final RegistryObject<Item> BLOCK_GLITCH_03 = block(AetheriumResourcesReloadedModBlocks.BLOCK_GLITCH_03);
+	public static final RegistryObject<Item> PANE_BLOCK_GLITCH_03 = block(AetheriumResourcesReloadedModBlocks.PANE_BLOCK_GLITCH_03);
 	public static final RegistryObject<Item> BLOCK_GLITCH_04 = block(AetheriumResourcesReloadedModBlocks.BLOCK_GLITCH_04);
 	public static final RegistryObject<Item> INFECTED_GRASS_BLOCK = block(AetheriumResourcesReloadedModBlocks.INFECTED_GRASS_BLOCK);
 	public static final RegistryObject<Item> INFECTED_DIRT_BLOCK = block(AetheriumResourcesReloadedModBlocks.INFECTED_DIRT_BLOCK);
@@ -47,7 +48,6 @@ public class AetheriumResourcesReloadedModItems {
 	public static final RegistryObject<Item> MUSIC_DISC_YRE = REGISTRY.register("music_disc_yre", () -> new MusicDiscYREItem());
 	public static final RegistryObject<Item> MUSIC_DISC_DISTORTION = REGISTRY.register("music_disc_distortion", () -> new MusicDiscDistortionItem());
 	public static final RegistryObject<Item> AETHERIUM_LOGO = REGISTRY.register("aetherium_logo", () -> new AetheriumLogoItem());
-	public static final RegistryObject<Item> PANE_BLOCK_GLITCH_03 = block(AetheriumResourcesReloadedModBlocks.PANE_BLOCK_GLITCH_03);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

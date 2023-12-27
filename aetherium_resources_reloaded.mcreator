@@ -20,7 +20,7 @@
     {
       "name": "BlocosCreativeTab",
       "type": "tab",
-      "sortid": 21,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocos_creative_tab",
@@ -66,7 +66,7 @@
     {
       "name": "BlockGlitch04",
       "type": "block",
-      "sortid": 6,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_glitch_04",
@@ -83,7 +83,7 @@
     {
       "name": "InfectedGrassBlock",
       "type": "block",
-      "sortid": 7,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infected_grass_block",
@@ -100,7 +100,7 @@
     {
       "name": "InfectedDirtBlock",
       "type": "block",
-      "sortid": 8,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infected_dirt_block",
@@ -117,7 +117,7 @@
     {
       "name": "InfectedSandBlock",
       "type": "block",
-      "sortid": 9,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infected_sand_block",
@@ -134,7 +134,7 @@
     {
       "name": "InfectedGrassBlockLoottable",
       "type": "loottable",
-      "sortid": 22,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infected_grass_block_loottable",
@@ -148,7 +148,7 @@
     {
       "name": "InfectedRedSandBlock",
       "type": "block",
-      "sortid": 10,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infected_red_sand_block",
@@ -165,7 +165,7 @@
     {
       "name": "InfectedStoneBlock",
       "type": "block",
-      "sortid": 11,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infected_stone_block",
@@ -182,7 +182,7 @@
     {
       "name": "InfectedGrassBlockUpdateTick",
       "type": "procedure",
-      "sortid": 23,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infected_grass_block_update_tick",
@@ -214,7 +214,7 @@
     {
       "name": "BlockGlitch01UpdateTick",
       "type": "procedure",
-      "sortid": 24,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_glitch_01_update_tick",
@@ -280,7 +280,7 @@
     {
       "name": "ItensCreativeTab",
       "type": "tab",
-      "sortid": 25,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "itens_creative_tab",
@@ -292,7 +292,7 @@
     {
       "name": "GlitchingMatter",
       "type": "item",
-      "sortid": 12,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glitching_matter",
@@ -307,7 +307,7 @@
     {
       "name": "Blockglitch01loottable",
       "type": "loottable",
-      "sortid": 26,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blockglitch_01loottable",
@@ -321,7 +321,7 @@
     {
       "name": "BlockGlitch02Loottable",
       "type": "loottable",
-      "sortid": 27,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_glitch_02_loottable",
@@ -335,7 +335,7 @@
     {
       "name": "DecorativeGlitch01Crafting",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "decorative_glitch_01_crafting",
@@ -349,7 +349,7 @@
     {
       "name": "DecorativeGlitch02Crafting",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "decorative_glitch_02_crafting",
@@ -363,7 +363,7 @@
     {
       "name": "DecorativeGlitch01Crafting2",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "decorative_glitch_01_crafting_2",
@@ -377,7 +377,7 @@
     {
       "name": "Grassinfectedrecipe",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grassinfectedrecipe",
@@ -391,7 +391,7 @@
     {
       "name": "Dirtinfectedrecipe",
       "type": "recipe",
-      "sortid": 32,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirtinfectedrecipe",
@@ -405,7 +405,7 @@
     {
       "name": "Stoneinfectedrecipe",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stoneinfectedrecipe",
@@ -419,7 +419,7 @@
     {
       "name": "Sandinfectedrecipe",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandinfectedrecipe",
@@ -433,7 +433,7 @@
     {
       "name": "Redsandinfectedrecipe",
       "type": "recipe",
-      "sortid": 35,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "redsandinfectedrecipe",
@@ -447,7 +447,7 @@
     {
       "name": "Glitch03Recipe",
       "type": "recipe",
-      "sortid": 36,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glitch_03_recipe",
@@ -461,7 +461,7 @@
     {
       "name": "Glitch04Recipe",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glitch_04_recipe",
@@ -475,7 +475,7 @@
     {
       "name": "MusicDiscCorruptio",
       "type": "musicdisc",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_disc_corruptio",
@@ -490,7 +490,7 @@
     {
       "name": "MusicDiscFallingApart",
       "type": "musicdisc",
-      "sortid": 15,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_disc_falling_apart",
@@ -505,7 +505,7 @@
     {
       "name": "MusicDiscInfinitus",
       "type": "musicdisc",
-      "sortid": 16,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_disc_infinitus",
@@ -520,7 +520,7 @@
     {
       "name": "MusicDiscFalseReality",
       "type": "musicdisc",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_disc_false_reality",
@@ -535,7 +535,7 @@
     {
       "name": "MusicDiscWakeUP",
       "type": "musicdisc",
-      "sortid": 18,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_disc_wake_up",
@@ -550,7 +550,7 @@
     {
       "name": "MusicDiscYRE",
       "type": "musicdisc",
-      "sortid": 19,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_disc_yre",
@@ -565,7 +565,7 @@
     {
       "name": "MusicDiscDistortion",
       "type": "musicdisc",
-      "sortid": 20,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_disc_distortion",
@@ -580,7 +580,7 @@
     {
       "name": "AGRSLogoPainting",
       "type": "painting",
-      "sortid": 38,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "agrs_logo_painting",
@@ -592,7 +592,7 @@
     {
       "name": "WakeUpRecipe",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wake_up_recipe",
@@ -606,7 +606,7 @@
     {
       "name": "YRERecipe",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yre_recipe",
@@ -620,7 +620,7 @@
     {
       "name": "CorruptioRecipe",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "corruptio_recipe",
@@ -634,7 +634,7 @@
     {
       "name": "CorruptedFragment",
       "type": "item",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "corrupted_fragment",
@@ -649,7 +649,7 @@
     {
       "name": "FalseHopeRecipe",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "false_hope_recipe",
@@ -663,7 +663,7 @@
     {
       "name": "DistortioRecipe",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "distortio_recipe",
@@ -677,7 +677,7 @@
     {
       "name": "FallingApartRecipe",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "falling_apart_recipe",
@@ -691,7 +691,7 @@
     {
       "name": "InfinitusRecipe",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infinitus_recipe",
@@ -705,7 +705,7 @@
     {
       "name": "AetheriumLogo",
       "type": "item",
-      "sortid": 46,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aetherium_logo",
@@ -720,7 +720,7 @@
     {
       "name": "WelcomeToAetherium",
       "type": "achievement",
-      "sortid": 47,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "welcome_to_aetherium",
@@ -734,7 +734,7 @@
     {
       "name": "InfinitusAdvancement",
       "type": "achievement",
-      "sortid": 48,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infinitus_advancement",
@@ -748,7 +748,7 @@
     {
       "name": "Advancement01",
       "type": "procedure",
-      "sortid": 49,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "advancement_01",
@@ -768,7 +768,7 @@
     {
       "name": "PaneBlockGlitch03",
       "type": "block",
-      "sortid": 50,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pane_block_glitch_03",
@@ -799,6 +799,20 @@
         ]
       },
       "path": "~/Misc/Crafting/Blocos/Glitch/Variantes/Glitch C"
+    },
+    {
+      "name": "TheStartOfEverythingAdvancement",
+      "type": "achievement",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_start_of_everything_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/advancements/the_start_of_everything_advancement.json"
+        ]
+      },
+      "path": "~/HUD/Advancements"
     }
   ],
   "variable_elements": [],
@@ -990,6 +1004,7 @@
       "block.aetherium_resources_reloaded.block_glitch_02": "§dGlitch Block B",
       "block.aetherium_resources_reloaded.block_glitch_01": "§dGlitch Block A",
       "block.aetherium_resources_reloaded.block_glitch_04": "§dGlitch Block D",
+      "advancements.the_start_of_everything_advancement.title": "The Start Of Everything",
       "block.aetherium_resources_reloaded.block_glitch_02_decorative": "§dGlitch Block B (Decorative)",
       "subtitles.falling_apart_disc": "Mus1c",
       "advancements.infinitus_advancement.title": "Why would you do this..? ",
@@ -1017,6 +1032,7 @@
       "block.aetherium_resources_reloaded.infected_red_sand_block": "R3d S4nd",
       "advancements.welcome_to_aetherium.descr": "You have the Mod Installed.",
       "item.aetherium_resources_reloaded.music_disc_distortion.desc": "Andrii Floria - Field of distorted thoughts",
+      "advancements.the_start_of_everything_advancement.descr": "It starts to go downhill.",
       "item.aetherium_resources_reloaded.music_disc_wake_up": "Wake Up!",
       "painting.aetherium_resources_reloaded.agrs_logo_painting.title": "The Past",
       "subtitles.music_disc_fallingapart": "Mus1c",
@@ -1050,6 +1066,7 @@
       "block.aetherium_resources_reloaded.block_glitch_02": "§dBloco de Glitch B",
       "block.aetherium_resources_reloaded.block_glitch_01": "§dBloco de Glitch A",
       "block.aetherium_resources_reloaded.block_glitch_04": "§dBloco de Glitch D",
+      "advancements.the_start_of_everything_advancement.title": "The Start Of Everything",
       "block.aetherium_resources_reloaded.block_glitch_02_decorative": "§dBloco de Glitch B (Decorativo)",
       "subtitles.falling_apart_disc": "Mús1c4",
       "advancements.infinitus_advancement.title": "Por que você faria isso..? ",
@@ -1077,6 +1094,7 @@
       "block.aetherium_resources_reloaded.infected_red_sand_block": "Ar3i4 V3rmelh4",
       "advancements.welcome_to_aetherium.descr": "Você tem o Mod Instalado.",
       "item.aetherium_resources_reloaded.music_disc_distortion.desc": "Andrii Floria - Field of distorted thoughts",
+      "advancements.the_start_of_everything_advancement.descr": "It starts to go downhill.",
       "item.aetherium_resources_reloaded.music_disc_wake_up": "Wake Up!",
       "painting.aetherium_resources_reloaded.agrs_logo_painting.title": "O Passado",
       "subtitles.music_disc_fallingapart": "Mús1c4",

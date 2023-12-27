@@ -23,13 +23,13 @@ public class AetheriumResourcesReloadedModTabs {
 					tabData.accept(AetheriumResourcesReloadedModBlocks.BLOCK_GLITCH_02.get().asItem());
 					tabData.accept(AetheriumResourcesReloadedModBlocks.BLOCK_GLITCH_02_DECORATIVE.get().asItem());
 					tabData.accept(AetheriumResourcesReloadedModBlocks.BLOCK_GLITCH_03.get().asItem());
+					tabData.accept(AetheriumResourcesReloadedModBlocks.PANE_BLOCK_GLITCH_03.get().asItem());
 					tabData.accept(AetheriumResourcesReloadedModBlocks.BLOCK_GLITCH_04.get().asItem());
 					tabData.accept(AetheriumResourcesReloadedModBlocks.INFECTED_GRASS_BLOCK.get().asItem());
 					tabData.accept(AetheriumResourcesReloadedModBlocks.INFECTED_DIRT_BLOCK.get().asItem());
 					tabData.accept(AetheriumResourcesReloadedModBlocks.INFECTED_SAND_BLOCK.get().asItem());
 					tabData.accept(AetheriumResourcesReloadedModBlocks.INFECTED_RED_SAND_BLOCK.get().asItem());
 					tabData.accept(AetheriumResourcesReloadedModBlocks.INFECTED_STONE_BLOCK.get().asItem());
-					tabData.accept(AetheriumResourcesReloadedModBlocks.PANE_BLOCK_GLITCH_03.get().asItem());
 				})
 
 		);

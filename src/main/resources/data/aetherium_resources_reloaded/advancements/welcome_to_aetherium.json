@@ -1,6 +1,6 @@
 {
   "display": {
-    "background": "aetherium_resources_reloaded:textures/screens/background.png",
+    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "aetherium_resources_reloaded:aetherium_logo"
     },

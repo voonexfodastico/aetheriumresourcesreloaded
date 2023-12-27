@@ -31,11 +31,11 @@ public class AetheriumResourcesReloadedModBlocks {
 	public static final RegistryObject<Block> BLOCK_GLITCH_02 = REGISTRY.register("block_glitch_02", () -> new BlockGlitch02Block());
 	public static final RegistryObject<Block> BLOCK_GLITCH_02_DECORATIVE = REGISTRY.register("block_glitch_02_decorative", () -> new BlockGlitch02DecorativeBlock());
 	public static final RegistryObject<Block> BLOCK_GLITCH_03 = REGISTRY.register("block_glitch_03", () -> new BlockGlitch03Block());
+	public static final RegistryObject<Block> PANE_BLOCK_GLITCH_03 = REGISTRY.register("pane_block_glitch_03", () -> new PaneBlockGlitch03Block());
 	public static final RegistryObject<Block> BLOCK_GLITCH_04 = REGISTRY.register("block_glitch_04", () -> new BlockGlitch04Block());
 	public static final RegistryObject<Block> INFECTED_GRASS_BLOCK = REGISTRY.register("infected_grass_block", () -> new InfectedGrassBlockBlock());
 	public static final RegistryObject<Block> INFECTED_DIRT_BLOCK = REGISTRY.register("infected_dirt_block", () -> new InfectedDirtBlockBlock());
 	public static final RegistryObject<Block> INFECTED_SAND_BLOCK = REGISTRY.register("infected_sand_block", () -> new InfectedSandBlockBlock());
 	public static final RegistryObject<Block> INFECTED_RED_SAND_BLOCK = REGISTRY.register("infected_red_sand_block", () -> new InfectedRedSandBlockBlock());
 	public static final RegistryObject<Block> INFECTED_STONE_BLOCK = REGISTRY.register("infected_stone_block", () -> new InfectedStoneBlockBlock());
-	public static final RegistryObject<Block> PANE_BLOCK_GLITCH_03 = REGISTRY.register("pane_block_glitch_03", () -> new PaneBlockGlitch03Block());
 }
