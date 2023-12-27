@@ -13,7 +13,7 @@ import java.util.List;
 
 public class AetheriumLogoItem extends Item {
 	public AetheriumLogoItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.EPIC).food((new FoodProperties.Builder()).nutrition(10).saturationMod(10f).alwaysEat().meat().build()));
+		super(new Item.Properties().tab(null).stacksTo(64).rarity(Rarity.EPIC).food((new FoodProperties.Builder()).nutrition(10).saturationMod(10f).alwaysEat().meat().build()));
 	}
 
 	@Override

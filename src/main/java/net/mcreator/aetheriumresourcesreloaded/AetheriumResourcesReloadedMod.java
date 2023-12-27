@@ -13,7 +13,7 @@
  */
 package net.mcreator.aetheriumresourcesreloaded;
 
-import software.bernie.geckolib.GeckoLib;
+import software.bernie.geckolib3.GeckoLib;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -31,6 +31,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModTabs;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModSounds;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModPaintings;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModItems;
@@ -52,6 +53,7 @@ public class AetheriumResourcesReloadedMod {
 
 	public AetheriumResourcesReloadedMod() {
 		MinecraftForge.EVENT_BUS.register(this);
+		AetheriumResourcesReloadedModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		AetheriumResourcesReloadedModSounds.REGISTRY.register(bus);
 		AetheriumResourcesReloadedModBlocks.REGISTRY.register(bus);

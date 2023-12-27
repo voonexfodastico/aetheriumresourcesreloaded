@@ -11,10 +11,10 @@ import java.util.Map;
 
 public class InfectedGrassBlockUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (world.getBlockState(BlockPos.containing(x, y + 1, z)).canOcclude()) {
+		if (world.getBlockState(new BlockPos(x, y + 1, z)).canOcclude()) {
 			if (Math.random() < 0.7) {
 				{
-					BlockPos _bp = BlockPos.containing(x, y, z);
+					BlockPos _bp = new BlockPos(x, y, z);
 					BlockState _bs = AetheriumResourcesReloadedModBlocks.INFECTED_DIRT_BLOCK.get().defaultBlockState();
 					BlockState _bso = world.getBlockState(_bp);
 					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {

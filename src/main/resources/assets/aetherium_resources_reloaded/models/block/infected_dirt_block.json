@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "aetherium_resources_reloaded:block/dirt",
-    "up": "aetherium_resources_reloaded:block/dirt",
-    "north": "aetherium_resources_reloaded:block/dirt",
-    "east": "aetherium_resources_reloaded:block/dirt",
-    "south": "aetherium_resources_reloaded:block/dirt",
-    "west": "aetherium_resources_reloaded:block/dirt",
-    "particle": "aetherium_resources_reloaded:block/glitchblock01"
+    "down": "aetherium_resources_reloaded:blocks/dirt",
+    "up": "aetherium_resources_reloaded:blocks/dirt",
+    "north": "aetherium_resources_reloaded:blocks/dirt",
+    "east": "aetherium_resources_reloaded:blocks/dirt",
+    "south": "aetherium_resources_reloaded:blocks/dirt",
+    "west": "aetherium_resources_reloaded:blocks/dirt",
+    "particle": "aetherium_resources_reloaded:blocks/glitchblock01"
   },
   "render_type": "solid"
 }

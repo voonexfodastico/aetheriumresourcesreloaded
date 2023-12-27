@@ -8,11 +8,13 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModTabs;
+
 import java.util.List;
 
 public class CorruptedFragmentItem extends Item {
 	public CorruptedFragmentItem() {
-		super(new Item.Properties().stacksTo(8).rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(AetheriumResourcesReloadedModTabs.TAB_ITENS_CREATIVE_TAB).stacksTo(8).rarity(Rarity.EPIC));
 	}
 
 	@Override

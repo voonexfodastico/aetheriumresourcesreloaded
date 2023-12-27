@@ -1,8 +1,8 @@
 {
   "parent": "block/template_glass_pane_post",
   "textures": {
-    "edge": "aetherium_resources_reloaded:block/glitchbblock03",
-    "pane": "aetherium_resources_reloaded:block/glitchbblock03"
+    "edge": "aetherium_resources_reloaded:blocks/glitchbblock03",
+    "pane": "aetherium_resources_reloaded:blocks/glitchbblock03"
   },
   "render_type": "translucent"
 }
