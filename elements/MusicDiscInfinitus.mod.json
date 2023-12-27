@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Infinitus Mortum",
+    "texture": "music_disc_infinitus1",
+    "description": "Andrii Floria - Amok",
+    "creativeTab": {
+      "value": "CUSTOM:ItensCreativeTab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:music_disc_infinutus1"
+    },
+    "lengthInTicks": 3640,
+    "analogOutput": 0
+  }
+}

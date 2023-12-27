@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Wake Up!",
+    "texture": "music_disc_wakeup",
+    "description": "Andrii Floria - Bedridden",
+    "creativeTab": {
+      "value": "CUSTOM:ItensCreativeTab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:music_disc_wakeup"
+    },
+    "lengthInTicks": 3080,
+    "analogOutput": 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Corruptio Veritas",
+    "texture": "music_disc_corruptio",
+    "description": "Andrii Floria - MAD",
+    "creativeTab": {
+      "value": "CUSTOM:ItensCreativeTab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:disc_corruptio"
+    },
+    "lengthInTicks": 1600,
+    "analogOutput": 0
+  }
+}

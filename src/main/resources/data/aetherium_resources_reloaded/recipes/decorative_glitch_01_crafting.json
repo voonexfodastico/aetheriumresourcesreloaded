@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "aetherium_resources_reloaded:glitching_matter"
+    },
+    "3": {
+      "item": "aetherium_resources_reloaded:glitching_matter"
+    },
+    "4": {
+      "tag": "minecraft:wool"
+    },
+    "5": {
+      "item": "aetherium_resources_reloaded:glitching_matter"
+    },
+    "7": {
+      "item": "aetherium_resources_reloaded:glitching_matter"
+    }
+  },
+  "result": {
+    "item": "aetherium_resources_reloaded:block_glitch_01_decorative",
+    "count": 4
+  }
+}

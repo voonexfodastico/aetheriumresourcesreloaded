@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#19"
+      },
+      {
+        "value": "CUSTOM:BlockGlitch01Decorative"
+      },
+      {
+        "value": "Items.DYE#19"
+      },
+      {
+        "value": "CUSTOM:BlockGlitch02Decorative"
+      },
+      {
+        "value": "CUSTOM:InfectedSandBlock"
+      },
+      {
+        "value": "CUSTOM:BlockGlitch02Decorative"
+      },
+      {
+        "value": "Items.DYE#16"
+      },
+      {
+        "value": "CUSTOM:BlockGlitch01Decorative"
+      },
+      {
+        "value": "Items.DYE#16"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlockGlitch04"
+    },
+    "name": "glitch_04_recipe",
+    "namespace": "mod"
+  }
+}

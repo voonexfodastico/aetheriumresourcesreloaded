@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetherium_resources_reloaded:glitching_matter"
+    },
+    "1": {
+      "tag": "forge:stained_glass"
+    },
+    "2": {
+      "item": "aetherium_resources_reloaded:glitching_matter"
+    },
+    "3": {
+      "tag": "forge:stained_glass"
+    },
+    "4": {
+      "tag": "forge:stained_glass"
+    },
+    "5": {
+      "tag": "forge:stained_glass"
+    },
+    "6": {
+      "item": "aetherium_resources_reloaded:glitching_matter"
+    },
+    "7": {
+      "tag": "forge:stained_glass"
+    },
+    "8": {
+      "item": "aetherium_resources_reloaded:glitching_matter"
+    }
+  },
+  "result": {
+    "item": "aetherium_resources_reloaded:block_glitch_03",
+    "count": 4
+  }
+}

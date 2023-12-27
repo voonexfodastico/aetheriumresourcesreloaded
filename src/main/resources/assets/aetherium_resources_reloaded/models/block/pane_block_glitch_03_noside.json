@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_noside",
+  "textures": {
+    "pane": "aetherium_resources_reloaded:block/glitchbblock03"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_block"
+    },
+    "1": {
+      "item": "aetherium_resources_reloaded:music_disc_distortion"
+    },
+    "2": {
+      "item": "minecraft:amethyst_block"
+    },
+    "3": {
+      "item": "aetherium_resources_reloaded:music_disc_yre"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "aetherium_resources_reloaded:music_disc_falling_apart"
+    },
+    "6": {
+      "item": "minecraft:amethyst_block"
+    },
+    "7": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "8": {
+      "item": "minecraft:amethyst_block"
+    }
+  },
+  "result": {
+    "item": "aetherium_resources_reloaded:music_disc_infinitus",
+    "count": 1
+  }
+}

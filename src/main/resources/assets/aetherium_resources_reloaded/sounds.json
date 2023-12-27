@@ -1,0 +1,267 @@
+{
+  "glitchblockbreaking": {
+    "subtitle": "subtitles.glitchblockbreaking",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_breaking1",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_breaking2",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_breaking3",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_breaking4",
+        "stream": false
+      }
+    ]
+  },
+  "glitchblockfall": {
+    "subtitle": "subtitles.glitchblockfall",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_fall1",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_fall2",
+        "stream": false
+      }
+    ]
+  },
+  "glitchblockhit": {
+    "subtitle": "subtitles.glitchblockhit",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_hit1",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_hit2",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_hit3",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_hit4",
+        "stream": false
+      }
+    ]
+  },
+  "glitchblockplacing": {
+    "subtitle": "subtitles.glitchblockplacing",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_placing1",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_placing2",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_placing3",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_placing4",
+        "stream": false
+      }
+    ]
+  },
+  "glitchblockstep": {
+    "subtitle": "subtitles.glitchblockstep",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_step1",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_step2",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_step3",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_step4",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_step5",
+        "stream": false
+      }
+    ]
+  },
+  "glitchblockbreaking2": {
+    "subtitle": "subtitles.glitchblockbreaking2",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_breaking1",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_breaking2",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_breaking3",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_breaking4",
+        "stream": false
+      }
+    ]
+  },
+  "glitchblockfalling2": {
+    "subtitle": "subtitles.glitchblockfalling2",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_fal1",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_fall2",
+        "stream": false
+      }
+    ]
+  },
+  "glitchblockhit2": {
+    "subtitle": "subtitles.glitchblockhit2",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_hit1",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_hit2",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_hit3",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_hit4",
+        "stream": false
+      }
+    ]
+  },
+  "glitchblockplacing2": {
+    "subtitle": "subtitles.glitchblockplacing2",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_placing1",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_placing2",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_placing3",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_placing4",
+        "stream": false
+      }
+    ]
+  },
+  "glitchblockstep2": {
+    "subtitle": "subtitles.glitchblockstep2",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_step1",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_step2",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_step3",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_step4",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:f41lur3_step5",
+        "stream": false
+      }
+    ]
+  },
+  "music_disc_false_reality": {
+    "subtitle": "subtitles.music_disc_false_reality",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:you_made_me_cry_mp3cut.net",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_wakeup": {
+    "subtitle": "subtitles.music_disc_wakeup",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:bedridden_online-audio-converter.com",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_yre": {
+    "subtitle": "subtitles.music_disc_yre",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:stars_tragedy_online-audio-converter.com",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_depravata": {
+    "subtitle": "subtitles.music_disc_depravata",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:field_of_distorted_thoughts_online-audio-converter.com",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_corruptio": {
+    "subtitle": "subtitles.music_disc_corruptio",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:mad-_mp3cut.net__1",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_infinutus1": {
+    "subtitle": "subtitles.music_disc_infinutus1",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:amok",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_fallingapart": {
+    "subtitle": "subtitles.music_disc_fallingapart",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:trash",
+        "stream": true
+      }
+    ]
+  }
+}

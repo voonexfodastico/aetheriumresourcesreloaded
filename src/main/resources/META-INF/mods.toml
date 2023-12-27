@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="MIT License"
+
+[[mods]]
+modId="aetherium_resources_reloaded"
+version="0.0.1"
+displayName="Aetherium Resources: Reloaded"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="VoonexB, MCreator"
+description="Mod made for AetheriumSMP!"
+
+[[dependencies.aetherium_resources_reloaded]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.aetherium_resources_reloaded]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

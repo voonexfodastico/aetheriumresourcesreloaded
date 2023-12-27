@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetherium_resources_reloaded:block/sand",
+    "up": "aetherium_resources_reloaded:block/sand",
+    "north": "aetherium_resources_reloaded:block/sand",
+    "east": "aetherium_resources_reloaded:block/sand",
+    "south": "aetherium_resources_reloaded:block/sand",
+    "west": "aetherium_resources_reloaded:block/sand",
+    "particle": "aetherium_resources_reloaded:block/glitchblock01"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "aetherium_resources_reloaded:infected_stone_block"
+  },
+  "addition": {
+    "item": "aetherium_resources_reloaded:glitching_matter"
+  },
+  "result": {
+    "item": "aetherium_resources_reloaded:infected_stone_block"
+  }
+}

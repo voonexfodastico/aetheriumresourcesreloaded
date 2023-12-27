@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "You Ruined Everything",
+    "texture": "music_disc_yre",
+    "description": "Andrii Floria - Stars, Tragedy",
+    "creativeTab": {
+      "value": "CUSTOM:ItensCreativeTab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:music_disc_yre"
+    },
+    "lengthInTicks": 5040,
+    "analogOutput": 0
+  }
+}

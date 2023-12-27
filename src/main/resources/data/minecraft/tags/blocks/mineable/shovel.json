@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "aetherium_resources_reloaded:block_glitch_03",
+    "aetherium_resources_reloaded:block_glitch_04",
+    "aetherium_resources_reloaded:infected_grass_block",
+    "aetherium_resources_reloaded:infected_dirt_block",
+    "aetherium_resources_reloaded:infected_sand_block",
+    "aetherium_resources_reloaded:infected_red_sand_block",
+    "aetherium_resources_reloaded:pane_block_glitch_03"
+  ]
+}

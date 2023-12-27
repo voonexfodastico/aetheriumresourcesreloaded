@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "aetherium_resources_reloaded:block_glitch_03"
+    },
+    "1": {
+      "item": "aetherium_resources_reloaded:block_glitch_03"
+    },
+    "2": {
+      "item": "aetherium_resources_reloaded:block_glitch_03"
+    },
+    "3": {
+      "item": "aetherium_resources_reloaded:block_glitch_03"
+    },
+    "4": {
+      "item": "aetherium_resources_reloaded:block_glitch_03"
+    },
+    "5": {
+      "item": "aetherium_resources_reloaded:block_glitch_03"
+    }
+  },
+  "result": {
+    "item": "aetherium_resources_reloaded:pane_block_glitch_03",
+    "count": 6
+  }
+}

@@ -1,0 +1,1255 @@
+{
+  "mod_elements": [
+    {
+      "name": "BlockGlitch01",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_glitch_01",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/block_glitch_01.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/block_glitch_01.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/blockstates/block_glitch_01.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/block/BlockGlitch01Block.java"
+        ]
+      },
+      "path": "~/Blocos/Glitches/Puros"
+    },
+    {
+      "name": "BlocosCreativeTab",
+      "type": "tab",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocos_creative_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/HUD/Creative Tab"
+    },
+    {
+      "name": "BlockGlitch02",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_glitch_02",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/block/BlockGlitch02Block.java",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/block_glitch_02.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/block_glitch_02.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/blockstates/block_glitch_02.json"
+        ]
+      },
+      "path": "~/Blocos/Glitches/Puros"
+    },
+    {
+      "name": "BlockGlitch03",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_glitch_03",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/block/BlockGlitch03Block.java",
+          "src/main/resources/assets/aetherium_resources_reloaded/blockstates/block_glitch_03.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/block_glitch_03.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/block_glitch_03.json"
+        ]
+      },
+      "path": "~/Blocos/Glitches/Puros"
+    },
+    {
+      "name": "BlockGlitch04",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_glitch_04",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/block_glitch_04.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/blockstates/block_glitch_04.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/block_glitch_04.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/block/BlockGlitch04Block.java"
+        ]
+      },
+      "path": "~/Blocos/Glitches/Puros"
+    },
+    {
+      "name": "InfectedGrassBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/block/InfectedGrassBlockBlock.java",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/infected_grass_block.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/blockstates/infected_grass_block.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/infected_grass_block.json"
+        ]
+      },
+      "path": "~/Blocos/Glitches/Infectados"
+    },
+    {
+      "name": "InfectedDirtBlock",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected_dirt_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/blockstates/infected_dirt_block.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/infected_dirt_block.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/infected_dirt_block.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/block/InfectedDirtBlockBlock.java"
+        ]
+      },
+      "path": "~/Blocos/Glitches/Infectados"
+    },
+    {
+      "name": "InfectedSandBlock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected_sand_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/infected_sand_block.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/block/InfectedSandBlockBlock.java",
+          "src/main/resources/assets/aetherium_resources_reloaded/blockstates/infected_sand_block.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/infected_sand_block.json"
+        ]
+      },
+      "path": "~/Blocos/Glitches/Infectados"
+    },
+    {
+      "name": "InfectedGrassBlockLoottable",
+      "type": "loottable",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected_grass_block_loottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/loot_tables/blocks/infected_grass_block.json"
+        ]
+      },
+      "path": "~/Misc/Loottables"
+    },
+    {
+      "name": "InfectedRedSandBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected_red_sand_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/infected_red_sand_block.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/infected_red_sand_block.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/block/InfectedRedSandBlockBlock.java",
+          "src/main/resources/assets/aetherium_resources_reloaded/blockstates/infected_red_sand_block.json"
+        ]
+      },
+      "path": "~/Blocos/Glitches/Infectados"
+    },
+    {
+      "name": "InfectedStoneBlock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected_stone_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/infected_stone_block.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/blockstates/infected_stone_block.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/infected_stone_block.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/block/InfectedStoneBlockBlock.java"
+        ]
+      },
+      "path": "~/Blocos/Glitches/Infectados"
+    },
+    {
+      "name": "InfectedGrassBlockUpdateTick",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected_grass_block_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/InfectedGrassBlockUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "BlockGlitch01UpdateTick",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_glitch_01_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/BlockGlitch01UpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "BlockGlitch01Decorative",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_glitch_01_decorative",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/block_glitch_01_decorative.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/blockstates/block_glitch_01_decorative.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/block/BlockGlitch01DecorativeBlock.java",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/block_glitch_01_decorative.json"
+        ]
+      },
+      "path": "~/Blocos/Glitches/Decorativo"
+    },
+    {
+      "name": "BlockGlitch02Decorative",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_glitch_02_decorative",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/block_glitch_02_decorative.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/block/BlockGlitch02DecorativeBlock.java",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/block_glitch_02_decorative.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/blockstates/block_glitch_02_decorative.json"
+        ]
+      },
+      "path": "~/Blocos/Glitches/Decorativo"
+    },
+    {
+      "name": "ItensCreativeTab",
+      "type": "tab",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itens_creative_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/HUD/Creative Tab"
+    },
+    {
+      "name": "GlitchingMatter",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitching_matter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/GlitchingMatterItem.java",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/glitching_matter.json"
+        ]
+      },
+      "path": "~/Itens/Material"
+    },
+    {
+      "name": "Blockglitch01loottable",
+      "type": "loottable",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockglitch_01loottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/loot_tables/blocks/block_glitch_01.json"
+        ]
+      },
+      "path": "~/Misc/Loottables"
+    },
+    {
+      "name": "BlockGlitch02Loottable",
+      "type": "loottable",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_glitch_02_loottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/loot_tables/blocks/block_glitch_02.json"
+        ]
+      },
+      "path": "~/Misc/Loottables"
+    },
+    {
+      "name": "DecorativeGlitch01Crafting",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decorative_glitch_01_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/decorative_glitch_01_crafting.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Blocos/Glitch/Puros"
+    },
+    {
+      "name": "DecorativeGlitch02Crafting",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decorative_glitch_02_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/decorative_glitch_02_crafting.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Blocos/Glitch/Puros"
+    },
+    {
+      "name": "DecorativeGlitch01Crafting2",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decorative_glitch_01_crafting_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/decorative_glitch_01_crafting_2.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Blocos/Glitch/Puros"
+    },
+    {
+      "name": "Grassinfectedrecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grassinfectedrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/grassinfectedrecipe.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Blocos/Glitch/Infectados"
+    },
+    {
+      "name": "Dirtinfectedrecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirtinfectedrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/dirtinfectedrecipe.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Blocos/Glitch/Infectados"
+    },
+    {
+      "name": "Stoneinfectedrecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stoneinfectedrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/stoneinfectedrecipe.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Blocos/Glitch/Infectados"
+    },
+    {
+      "name": "Sandinfectedrecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandinfectedrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/sandinfectedrecipe.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Blocos/Glitch/Infectados"
+    },
+    {
+      "name": "Redsandinfectedrecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redsandinfectedrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/redsandinfectedrecipe.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Blocos/Glitch/Infectados"
+    },
+    {
+      "name": "Glitch03Recipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitch_03_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/glitch_03_recipe.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Blocos/Glitch/Puros"
+    },
+    {
+      "name": "Glitch04Recipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitch_04_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/glitch_04_recipe.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Blocos/Glitch/Puros"
+    },
+    {
+      "name": "MusicDiscCorruptio",
+      "type": "musicdisc",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_corruptio",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/MusicDiscCorruptioItem.java",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/music_disc_corruptio.json"
+        ]
+      },
+      "path": "~/Itens/Discos"
+    },
+    {
+      "name": "MusicDiscFallingApart",
+      "type": "musicdisc",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_falling_apart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/music_disc_falling_apart.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/MusicDiscFallingApartItem.java"
+        ]
+      },
+      "path": "~/Itens/Discos"
+    },
+    {
+      "name": "MusicDiscInfinitus",
+      "type": "musicdisc",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_infinitus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/music_disc_infinitus.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/MusicDiscInfinitusItem.java"
+        ]
+      },
+      "path": "~/Itens/Discos"
+    },
+    {
+      "name": "MusicDiscFalseReality",
+      "type": "musicdisc",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_false_reality",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/music_disc_false_reality.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/MusicDiscFalseRealityItem.java"
+        ]
+      },
+      "path": "~/Itens/Discos"
+    },
+    {
+      "name": "MusicDiscWakeUP",
+      "type": "musicdisc",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_wake_up",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/MusicDiscWakeUPItem.java",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/music_disc_wake_up.json"
+        ]
+      },
+      "path": "~/Itens/Discos"
+    },
+    {
+      "name": "MusicDiscYRE",
+      "type": "musicdisc",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_yre",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/music_disc_yre.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/MusicDiscYREItem.java"
+        ]
+      },
+      "path": "~/Itens/Discos"
+    },
+    {
+      "name": "MusicDiscDistortion",
+      "type": "musicdisc",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_distortion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/music_disc_distortion.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/MusicDiscDistortionItem.java"
+        ]
+      },
+      "path": "~/Itens/Discos"
+    },
+    {
+      "name": "AGRSLogoPainting",
+      "type": "painting",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agrs_logo_painting",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Blocos/Misc"
+    },
+    {
+      "name": "WakeUpRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wake_up_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/wake_up_recipe.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Itens"
+    },
+    {
+      "name": "YRERecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yre_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/yre_recipe.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Itens"
+    },
+    {
+      "name": "CorruptioRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptio_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/corruptio_recipe.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Itens"
+    },
+    {
+      "name": "CorruptedFragment",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_fragment",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/corrupted_fragment.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/CorruptedFragmentItem.java"
+        ]
+      },
+      "path": "~/Itens/Material"
+    },
+    {
+      "name": "FalseHopeRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "false_hope_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/false_hope_recipe.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Itens"
+    },
+    {
+      "name": "DistortioRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "distortio_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/distortio_recipe.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Itens"
+    },
+    {
+      "name": "FallingApartRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falling_apart_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/falling_apart_recipe.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Itens"
+    },
+    {
+      "name": "InfinitusRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitus_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/infinitus_recipe.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Itens"
+    },
+    {
+      "name": "AetheriumLogo",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherium_logo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/AetheriumLogoItem.java",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/aetherium_logo.json"
+        ]
+      },
+      "path": "~/Itens/Misc"
+    },
+    {
+      "name": "WelcomeToAetherium",
+      "type": "achievement",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome_to_aetherium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/advancements/welcome_to_aetherium.json"
+        ]
+      },
+      "path": "~/HUD/Advancements"
+    },
+    {
+      "name": "InfinitusAdvancement",
+      "type": "achievement",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitus_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/advancements/infinitus_advancement.json"
+        ]
+      },
+      "path": "~/HUD/Advancements"
+    },
+    {
+      "name": "Advancement01",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advancement_01",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/Advancement01Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "PaneBlockGlitch03",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pane_block_glitch_03",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/pane_block_glitch_03_post.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/pane_block_glitch_03_noside_alt.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/block/PaneBlockGlitch03Block.java",
+          "src/main/resources/assets/aetherium_resources_reloaded/blockstates/pane_block_glitch_03.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/pane_block_glitch_03_side.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/pane_block_glitch_03_side_alt.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/pane_block_glitch_03_noside.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/pane_block_glitch_03.json"
+        ]
+      },
+      "path": "~/Blocos/Glitches/Variantes/Glitch C"
+    },
+    {
+      "name": "PaneGlitch03Recipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pane_glitch_03_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/pane_glitch_03_recipe.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Blocos/Glitch/Variantes/Glitch C"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "glitchblockbreaking",
+      "files": [
+        "3rr0r_breaking1",
+        "3rr0r_breaking2",
+        "3rr0r_breaking3",
+        "3rr0r_breaking4"
+      ],
+      "category": "block",
+      "subtitle": "@*(!)!#)(*\u0026¨!(*"
+    },
+    {
+      "name": "glitchblockfall",
+      "files": [
+        "3rr0r_fall1",
+        "3rr0r_fall2"
+      ],
+      "category": "block",
+      "subtitle": "$#\u0026%#@!"
+    },
+    {
+      "name": "glitchblockhit",
+      "files": [
+        "3rr0r_hit1",
+        "3rr0r_hit2",
+        "3rr0r_hit3",
+        "3rr0r_hit4"
+      ],
+      "category": "neutral",
+      "subtitle": "!*\u0026%#\u0026*!"
+    },
+    {
+      "name": "glitchblockplacing",
+      "files": [
+        "3rr0r_placing1",
+        "3rr0r_placing2",
+        "3rr0r_placing3",
+        "3rr0r_placing4"
+      ],
+      "category": "neutral",
+      "subtitle": "\u0026!!\u0026*$@"
+    },
+    {
+      "name": "glitchblockstep",
+      "files": [
+        "3rr0r_step1",
+        "3rr0r_step2",
+        "3rr0r_step3",
+        "3rr0r_step4",
+        "3rr0r_step5"
+      ],
+      "category": "neutral",
+      "subtitle": "!\u0026$#\u0026!#"
+    },
+    {
+      "name": "glitchblockbreaking2",
+      "files": [
+        "f41lur3_breaking1",
+        "f41lur3_breaking2",
+        "f41lur3_breaking3",
+        "f41lur3_breaking4"
+      ],
+      "category": "block",
+      "subtitle": "@%!\u0026!#"
+    },
+    {
+      "name": "glitchblockfalling2",
+      "files": [
+        "f41lur3_fal1",
+        "f41lur3_fall2"
+      ],
+      "category": "block",
+      "subtitle": "@%!\u0026!#"
+    },
+    {
+      "name": "glitchblockhit2",
+      "files": [
+        "f41lur3_hit1",
+        "f41lur3_hit2",
+        "f41lur3_hit3",
+        "f41lur3_hit4"
+      ],
+      "category": "block",
+      "subtitle": "@%!\u0026!#"
+    },
+    {
+      "name": "glitchblockplacing2",
+      "files": [
+        "f41lur3_placing1",
+        "f41lur3_placing2",
+        "f41lur3_placing3",
+        "f41lur3_placing4"
+      ],
+      "category": "block",
+      "subtitle": "@%!\u0026!#"
+    },
+    {
+      "name": "glitchblockstep2",
+      "files": [
+        "f41lur3_step1",
+        "f41lur3_step2",
+        "f41lur3_step3",
+        "f41lur3_step4",
+        "f41lur3_step5"
+      ],
+      "category": "block",
+      "subtitle": "@%!\u0026!#"
+    },
+    {
+      "name": "music_disc_false_reality",
+      "files": [
+        "you_made_me_cry_mp3cut.net"
+      ],
+      "category": "record",
+      "subtitle": "Mus1c"
+    },
+    {
+      "name": "music_disc_wakeup",
+      "files": [
+        "bedridden_online-audio-converter.com"
+      ],
+      "category": "record",
+      "subtitle": "Mus1c"
+    },
+    {
+      "name": "music_disc_yre",
+      "files": [
+        "stars_tragedy_online-audio-converter.com"
+      ],
+      "category": "record",
+      "subtitle": "Mus1c"
+    },
+    {
+      "name": "music_disc_depravata",
+      "files": [
+        "field_of_distorted_thoughts_online-audio-converter.com"
+      ],
+      "category": "record",
+      "subtitle": "Mus1c"
+    },
+    {
+      "name": "music_disc_corruptio",
+      "files": [
+        "mad-_mp3cut.net__1"
+      ],
+      "category": "record",
+      "subtitle": "Mus1c"
+    },
+    {
+      "name": "music_disc_infinutus1",
+      "files": [
+        "amok"
+      ],
+      "category": "record",
+      "subtitle": "Mus1c"
+    },
+    {
+      "name": "music_disc_fallingapart",
+      "files": [
+        "trash"
+      ],
+      "category": "record",
+      "subtitle": "Mus1c"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.aetherium_resources_reloaded.infected_dirt_block": "D1rt",
+      "item.aetherium_resources_reloaded.music_disc_distortion": "Depravata Veritas ",
+      "subtitles.glitchblockhit": "!*\u0026%#\u0026*!",
+      "subtitles.music_disc_false_reality": "Mus1c",
+      "subtitles.glitchblockfall": "$#\u0026%#@!",
+      "block.aetherium_resources_reloaded.infected_sand_block": "S4nd",
+      "item.aetherium_resources_reloaded.music_disc_yre.desc": "Andrii Floria - Stars, Tragedy",
+      "subtitles.glitchblockhit2": "@%!\u0026!#",
+      "subtitles.music_disc_depravata": "Mus1c",
+      "item.aetherium_resources_reloaded.glitching_matter": "Glitching Matter",
+      "item.aetherium_resources_reloaded.music_disc_falling_apart": "Falling Apart",
+      "item.aetherium_resources_reloaded.corrupted_fragment": "Corrupted Fragment",
+      "block.aetherium_resources_reloaded.pane_block_glitch_03": "§dGlitch Block C Pane",
+      "subtitles.glitchblockfalling2": "@%!\u0026!#",
+      "subtitles.disc_corruptio": "Mus1c",
+      "subtitles.corruptio_disc": "Mus1c",
+      "block.aetherium_resources_reloaded.block_glitch_03": "§dGlitch Block C",
+      "block.aetherium_resources_reloaded.block_glitch_02": "§dGlitch Block B",
+      "block.aetherium_resources_reloaded.block_glitch_01": "§dGlitch Block A",
+      "block.aetherium_resources_reloaded.block_glitch_04": "§dGlitch Block D",
+      "block.aetherium_resources_reloaded.block_glitch_02_decorative": "§dGlitch Block B (Decorative)",
+      "subtitles.falling_apart_disc": "Mus1c",
+      "advancements.infinitus_advancement.title": "Why would you do this..? ",
+      "item.aetherium_resources_reloaded.music_disc_infinitus.desc": "Andrii Floria - Amok",
+      "subtitles.glitchblockplacing": "\u0026!!\u0026*$@",
+      "item.aetherium_resources_reloaded.music_disc_corruptio": "Corruptio Veritas",
+      "item.aetherium_resources_reloaded.music_disc_wake_up.desc": "Andrii Floria - Bedridden",
+      "item.aetherium_resources_reloaded.music_disc_infinitus": "Infinitus Mortum",
+      "block.aetherium_resources_reloaded.block_glitch_01_decorative": "§dGlitch Block A (Decorative)",
+      "subtitles.glitchblockplacing2": "@%!\u0026!#",
+      "advancements.infinitus_advancement.descr": "Craft the Infinitus Disc.",
+      "item.aetherium_resources_reloaded.music_disc_yre": "You Ruined Everything",
+      "item.aetherium_resources_reloaded.music_disc_falling_apart.desc": "Andrii Floria - Trash",
+      "item_group.aetherium_resources_reloaded.blocos_creative_tab": "Aetherium Resources: Blocks",
+      "block.aetherium_resources_reloaded.infected_stone_block": "St0n3",
+      "subtitles.music_disc_wakeup": "Mus1c",
+      "advancements.welcome_to_aetherium.title": "Welcome To Aetherium!",
+      "block.aetherium_resources_reloaded.infected_grass_block": "Gr4ss Bl0ck",
+      "item_group.aetherium_resources_reloaded.itens_creative_tab": "Aetherium Resources: Items",
+      "item.aetherium_resources_reloaded.music_disc_false_reality": "F4lse R3al1ty",
+      "painting.aetherium_resources_reloaded.agrs_logo_painting.author": "AGRS",
+      "item.aetherium_resources_reloaded.aetherium_logo": "AetheriumSMP",
+      "subtitles.glitchblockstep2": "@%!\u0026!#",
+      "subtitles.glitchblockstep": "!\u0026$#\u0026!#",
+      "block.aetherium_resources_reloaded.infected_red_sand_block": "R3d S4nd",
+      "advancements.welcome_to_aetherium.descr": "You have the Mod Installed.",
+      "item.aetherium_resources_reloaded.music_disc_distortion.desc": "Andrii Floria - Field of distorted thoughts",
+      "item.aetherium_resources_reloaded.music_disc_wake_up": "Wake Up!",
+      "painting.aetherium_resources_reloaded.agrs_logo_painting.title": "The Past",
+      "subtitles.music_disc_fallingapart": "Mus1c",
+      "subtitles.glitchblockbreaking": "@*(!)!#)(*\u0026¨!(*",
+      "subtitles.music_disc_infinutus1": "Mus1c",
+      "subtitles.glitchblockbreaking2": "@%!\u0026!#",
+      "subtitles.music_disc_corruptio": "Mus1c",
+      "item.aetherium_resources_reloaded.music_disc_corruptio.desc": "Andrii Floria - MAD",
+      "subtitles.music_disc_infinitus": "Mus1c",
+      "item.aetherium_resources_reloaded.music_disc_false_reality.desc": "Andrii Floria - You made me cry",
+      "subtitles.music_disc_yre": "Mus1c"
+    },
+    "pt_br": {
+      "block.aetherium_resources_reloaded.infected_dirt_block": "T3rr4",
+      "item.aetherium_resources_reloaded.music_disc_distortion": "Depravata Veritas ",
+      "subtitles.glitchblockhit": "!*\u0026%#\u0026*!",
+      "subtitles.music_disc_false_reality": "Mús1c4",
+      "subtitles.glitchblockfall": "$#\u0026%#@!",
+      "block.aetherium_resources_reloaded.infected_sand_block": "Ar3i4",
+      "item.aetherium_resources_reloaded.music_disc_yre.desc": "Andrii Floria - Stars, Tragedy",
+      "subtitles.glitchblockhit2": "@%!\u0026!#",
+      "subtitles.music_disc_depravata": "Mús1c4",
+      "item.aetherium_resources_reloaded.glitching_matter": "Matéria Bugada",
+      "item.aetherium_resources_reloaded.music_disc_falling_apart": "Falling Apart",
+      "item.aetherium_resources_reloaded.corrupted_fragment": "Fragmento Corrompido",
+      "block.aetherium_resources_reloaded.pane_block_glitch_03": "§dPainel de Bloco de Glitch C",
+      "subtitles.glitchblockfalling2": "@%!\u0026!#",
+      "subtitles.disc_corruptio": "Mús1c4",
+      "subtitles.corruptio_disc": "Mús1c4",
+      "block.aetherium_resources_reloaded.block_glitch_03": "§dBloco de Glitch C",
+      "block.aetherium_resources_reloaded.block_glitch_02": "§dBloco de Glitch B",
+      "block.aetherium_resources_reloaded.block_glitch_01": "§dBloco de Glitch A",
+      "block.aetherium_resources_reloaded.block_glitch_04": "§dBloco de Glitch D",
+      "block.aetherium_resources_reloaded.block_glitch_02_decorative": "§dBloco de Glitch B (Decorativo)",
+      "subtitles.falling_apart_disc": "Mús1c4",
+      "advancements.infinitus_advancement.title": "Por que você faria isso..? ",
+      "item.aetherium_resources_reloaded.music_disc_infinitus.desc": "Andrii Floria - Amok",
+      "subtitles.glitchblockplacing": "\u0026!!\u0026*$@",
+      "item.aetherium_resources_reloaded.music_disc_corruptio": "Corruptio Veritas",
+      "item.aetherium_resources_reloaded.music_disc_wake_up.desc": "Andrii Floria - Bedridden",
+      "item.aetherium_resources_reloaded.music_disc_infinitus": "Infinitus Mortum",
+      "block.aetherium_resources_reloaded.block_glitch_01_decorative": "§dBloco de Glitch A (Decorativo)",
+      "subtitles.glitchblockplacing2": "@%!\u0026!#",
+      "advancements.infinitus_advancement.descr": "Faça o Disco Infinitus.",
+      "item.aetherium_resources_reloaded.music_disc_yre": "You Ruined Everything",
+      "item.aetherium_resources_reloaded.music_disc_falling_apart.desc": "Andrii Floria - Trash",
+      "item_group.aetherium_resources_reloaded.blocos_creative_tab": "Aetherium Resources: Blocos",
+      "block.aetherium_resources_reloaded.infected_stone_block": "P3dr4",
+      "subtitles.music_disc_wakeup": "Mús1c4",
+      "advancements.welcome_to_aetherium.title": "Bem vindo a Aetherium!",
+      "block.aetherium_resources_reloaded.infected_grass_block": "Bloc0 d3 Gram4",
+      "item_group.aetherium_resources_reloaded.itens_creative_tab": "Aetherium Resources: Itens",
+      "item.aetherium_resources_reloaded.music_disc_false_reality": "F4lse R3al1ty",
+      "painting.aetherium_resources_reloaded.agrs_logo_painting.author": "AGRS",
+      "item.aetherium_resources_reloaded.aetherium_logo": "AetheriumSMP",
+      "subtitles.glitchblockstep2": "@%!\u0026!#",
+      "subtitles.glitchblockstep": "!\u0026$#\u0026!#",
+      "block.aetherium_resources_reloaded.infected_red_sand_block": "Ar3i4 V3rmelh4",
+      "advancements.welcome_to_aetherium.descr": "Você tem o Mod Instalado.",
+      "item.aetherium_resources_reloaded.music_disc_distortion.desc": "Andrii Floria - Field of distorted thoughts",
+      "item.aetherium_resources_reloaded.music_disc_wake_up": "Wake Up!",
+      "painting.aetherium_resources_reloaded.agrs_logo_painting.title": "O Passado",
+      "subtitles.music_disc_fallingapart": "Mús1c4",
+      "subtitles.glitchblockbreaking": "@*(!)!#)(*\u0026¨!(*",
+      "subtitles.music_disc_infinutus1": "Mús1c4",
+      "subtitles.glitchblockbreaking2": "@%!\u0026!#",
+      "subtitles.music_disc_corruptio": "Mús1c4",
+      "item.aetherium_resources_reloaded.music_disc_corruptio.desc": "Andrii Floria - MAD",
+      "subtitles.music_disc_infinitus": "Mús1c4",
+      "item.aetherium_resources_reloaded.music_disc_false_reality.desc": "Andrii Floria - You made me cry",
+      "subtitles.music_disc_yre": "Mús1c4"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocos",
+        "children": [
+          {
+            "name": "Glitches",
+            "children": [
+              {
+                "name": "Puros",
+                "children": []
+              },
+              {
+                "name": "Infectados",
+                "children": []
+              },
+              {
+                "name": "Variantes",
+                "children": [
+                  {
+                    "name": "Glitch A",
+                    "children": []
+                  },
+                  {
+                    "name": "Glitch B",
+                    "children": []
+                  },
+                  {
+                    "name": "Glitch C",
+                    "children": []
+                  },
+                  {
+                    "name": "Glitch D",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Decorativo",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Misc",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "HUD",
+        "children": [
+          {
+            "name": "Creative Tab",
+            "children": []
+          },
+          {
+            "name": "Advancements",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Misc",
+        "children": [
+          {
+            "name": "Loottables",
+            "children": []
+          },
+          {
+            "name": "Procedures",
+            "children": []
+          },
+          {
+            "name": "Crafting",
+            "children": [
+              {
+                "name": "Blocos",
+                "children": [
+                  {
+                    "name": "Misc",
+                    "children": []
+                  },
+                  {
+                    "name": "Glitch",
+                    "children": [
+                      {
+                        "name": "Puros",
+                        "children": []
+                      },
+                      {
+                        "name": "Infectados",
+                        "children": []
+                      },
+                      {
+                        "name": "Variantes",
+                        "children": [
+                          {
+                            "name": "Glitch C",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Itens",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Tags",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Itens",
+        "children": [
+          {
+            "name": "Discos",
+            "children": []
+          },
+          {
+            "name": "Material",
+            "children": []
+          },
+          {
+            "name": "Misc",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "aetherium_resources_reloaded",
+    "modName": "Aetherium Resources: Reloaded",
+    "version": "0.0.1",
+    "description": "Mod made for AetheriumSMP!",
+    "author": "VoonexB, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "ilustracao2",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.aetheriumresourcesreloaded",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

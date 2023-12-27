@@ -1,0 +1,19 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "F4lse R3al1ty",
+    "texture": "music_disc_false_reality",
+    "description": "Andrii Floria - You made me cry",
+    "creativeTab": {
+      "value": "CUSTOM:ItensCreativeTab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:music_disc_false_reality"
+    },
+    "lengthInTicks": 3160,
+    "analogOutput": 0
+  }
+}

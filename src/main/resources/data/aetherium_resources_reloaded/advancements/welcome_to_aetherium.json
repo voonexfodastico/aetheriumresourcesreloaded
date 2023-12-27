@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "aetherium_resources_reloaded:textures/screens/background.png",
+    "icon": {
+      "item": "aetherium_resources_reloaded:aetherium_logo"
+    },
+    "title": {
+      "translate": "advancements.welcome_to_aetherium.title"
+    },
+    "description": {
+      "translate": "advancements.welcome_to_aetherium.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "welcome_to_aetherium": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  }
+}

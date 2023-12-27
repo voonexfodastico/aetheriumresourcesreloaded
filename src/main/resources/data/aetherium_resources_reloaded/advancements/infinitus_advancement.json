@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "aetherium_resources_reloaded:music_disc_infinitus"
+    },
+    "title": {
+      "translate": "advancements.infinitus_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.infinitus_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "infinitus_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aetherium_resources_reloaded:music_disc_infinitus"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "aetherium_resources_reloaded:welcome_to_aetherium"
+}

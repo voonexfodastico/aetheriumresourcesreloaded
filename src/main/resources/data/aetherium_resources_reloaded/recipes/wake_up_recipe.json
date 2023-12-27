@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "tag": "minecraft/music_discs"
+  },
+  "addition": {
+    "item": "aetherium_resources_reloaded:glitching_matter"
+  },
+  "result": {
+    "item": "aetherium_resources_reloaded:music_disc_wake_up"
+  }
+}

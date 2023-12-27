@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "aetherium_resources_reloaded:music_disc_false_reality"
+  },
+  "addition": {
+    "item": "aetherium_resources_reloaded:block_glitch_04"
+  },
+  "result": {
+    "item": "aetherium_resources_reloaded:music_disc_falling_apart"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetherium_resources_reloaded:block/dirt",
+    "up": "aetherium_resources_reloaded:block/grass_block_top",
+    "north": "aetherium_resources_reloaded:block/grass_block_side",
+    "east": "aetherium_resources_reloaded:block/grass_block_side",
+    "south": "aetherium_resources_reloaded:block/grass_block_side",
+    "west": "aetherium_resources_reloaded:block/grass_block_side",
+    "particle": "aetherium_resources_reloaded:block/glitchblock01"
+  },
+  "render_type": "solid"
+}
