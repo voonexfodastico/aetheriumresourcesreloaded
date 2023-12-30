@@ -57,6 +57,6 @@ public class GlitchWarHammerItem extends PickaxeItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A75Isso n\u00E3o parece real."));
+		list.add(Component.literal("\u00A7o\u00A75Isso n\u00E3o parece real."));
 	}
 }

@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "texturarealitymissfourtune",
+        "1": "texturarealitymissfourtune",
+        "2": "texturarealitymissfourtune",
+        "missing": "texturarealitymissfourtune"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -902,6 +902,51 @@
         ]
       },
       "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "RealityMisfortune",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reality_misfortune",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/RealityMisfortuneItem.java",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/reality_misfortune.json"
+        ]
+      },
+      "path": "~/Itens/Ferramentas/Armas/Glitch/God Weapons"
+    },
+    {
+      "name": "Calamity",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calamity",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/calamity.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/CalamityItem.java"
+        ]
+      },
+      "path": "~/Itens/Ferramentas/Armas/Glitch/God Weapons"
+    },
+    {
+      "name": "Crowbar",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crowbar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/CrowbarItem.java",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/crowbar.json"
+        ]
+      },
+      "path": "~/Itens/Ferramentas"
     }
   ],
   "variable_elements": [],
@@ -1104,9 +1149,11 @@
       "item.aetherium_resources_reloaded.music_disc_wake_up.desc": "Andrii Floria - Bedridden",
       "item.aetherium_resources_reloaded.music_disc_infinitus": "Infinitus Mortum",
       "block.aetherium_resources_reloaded.block_glitch_01_decorative": "§dGlitch Block A (Decorative)",
+      "item.aetherium_resources_reloaded.calamity": "§dCalamity Bringer",
       "subtitles.glitchblockplacing2": "@%!\u0026!#",
       "advancements.infinitus_advancement.descr": "Craft the Infinitus Disc.",
       "item.aetherium_resources_reloaded.glitch_war_hammer": "Glitching Warhammer",
+      "item.aetherium_resources_reloaded.reality_misfortune": "§dReality Misfortune",
       "item.aetherium_resources_reloaded.music_disc_yre": "You Ruined Everything",
       "item.aetherium_resources_reloaded.music_disc_falling_apart.desc": "Andrii Floria - Trash",
       "itemGroup.tabcombat_creative_tab": "Aetherium Resources: Combat",
@@ -1124,6 +1171,7 @@
       "subtitles.glitchblockstep": "!\u0026$#\u0026!#",
       "item.aetherium_resources_reloaded.glitching_war_axe": "Glitching Waraxe",
       "block.aetherium_resources_reloaded.infected_red_sand_block": "R3d S4nd",
+      "item.aetherium_resources_reloaded.crowbar": "Crowbar",
       "advancements.welcome_to_aetherium.descr": "You have the Mod Installed.",
       "item.aetherium_resources_reloaded.music_disc_distortion.desc": "Andrii Floria - Field of distorted thoughts",
       "advancements.the_start_of_everything_advancement.descr": "It starts to go downhill.",
@@ -1172,9 +1220,11 @@
       "item.aetherium_resources_reloaded.music_disc_wake_up.desc": "Andrii Floria - Bedridden",
       "item.aetherium_resources_reloaded.music_disc_infinitus": "Infinitus Mortum",
       "block.aetherium_resources_reloaded.block_glitch_01_decorative": "§dBloco de Glitch A (Decorativo)",
+      "item.aetherium_resources_reloaded.calamity": "§dReality Misfortune",
       "subtitles.glitchblockplacing2": "@%!\u0026!#",
       "advancements.infinitus_advancement.descr": "Faça o Disco Infinitus.",
       "item.aetherium_resources_reloaded.glitch_war_hammer": "Martelo de Glitch",
+      "item.aetherium_resources_reloaded.reality_misfortune": "§dReality Misfortune",
       "item.aetherium_resources_reloaded.music_disc_yre": "You Ruined Everything",
       "item.aetherium_resources_reloaded.music_disc_falling_apart.desc": "Andrii Floria - Trash",
       "itemGroup.tabcombat_creative_tab": "Aetherium Resources: Combate",
@@ -1192,6 +1242,7 @@
       "subtitles.glitchblockstep": "!\u0026$#\u0026!#",
       "item.aetherium_resources_reloaded.glitching_war_axe": "Machado de Glitch",
       "block.aetherium_resources_reloaded.infected_red_sand_block": "Ar3i4 V3rmelh4",
+      "item.aetherium_resources_reloaded.crowbar": "Crowbar",
       "advancements.welcome_to_aetherium.descr": "Você tem o Mod Instalado.",
       "item.aetherium_resources_reloaded.music_disc_distortion.desc": "Andrii Floria - Field of distorted thoughts",
       "advancements.the_start_of_everything_advancement.descr": "It starts to go downhill.",
@@ -1352,7 +1403,12 @@
                 "children": [
                   {
                     "name": "Glitch",
-                    "children": []
+                    "children": [
+                      {
+                        "name": "God Weapons",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               }

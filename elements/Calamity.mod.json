@@ -3,30 +3,27 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "espadaglitch5",
+    "texture": "texturacalamity",
     "customModelName": "Normal",
-    "name": "Glitching Warhammer",
+    "name": "§dCalamity Bringer",
     "specialInfo": [
-      "§o§5Isso não parece real."
+      "§o§5§kO MACHADO DA CALAMIDADE"
     ],
     "creativeTab": {
       "value": "CUSTOM:CombatCreativeTab"
     },
-    "toolType": "Pickaxe",
+    "toolType": "Axe",
     "harvestLevel": 1,
-    "efficiency": 10.0,
-    "attackSpeed": 0.9,
-    "enchantability": 15,
-    "damageVsEntity": 10.0,
+    "efficiency": 16.0,
+    "attackSpeed": 0.8,
+    "enchantability": 22,
+    "damageVsEntity": 30.0,
     "usageCount": 0,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onBlockDestroyedWithTool": {
-      "name": "GlitchWarHammerBlockDestroyedWithTool"
-    }
+    "damageOnCrafting": false
   }
 }

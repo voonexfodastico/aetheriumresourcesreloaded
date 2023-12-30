@@ -1,0 +1,7 @@
+{
+  "parent": "aetherium_resources_reloaded:custom/crowbar",
+  "textures": {
+    "9": "aetherium_resources_reloaded:blocks/texturacrowbar",
+    "particle": "aetherium_resources_reloaded:items/texturacrowbar"
+  }
+}

@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Glitching Sword",
     "specialInfo": [
-      "§5Isso não parece real."
+      "§o§5Isso não parece real."
     ],
     "creativeTab": {
       "value": "CUSTOM:CombatCreativeTab"

@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.aetheriumresourcesreloaded.item.RealityMisfortuneItem;
 import net.mcreator.aetheriumresourcesreloaded.item.MusicDiscYREItem;
 import net.mcreator.aetheriumresourcesreloaded.item.MusicDiscWakeUPItem;
 import net.mcreator.aetheriumresourcesreloaded.item.MusicDiscInfinitusItem;
@@ -24,7 +25,9 @@ import net.mcreator.aetheriumresourcesreloaded.item.GlitchingWarAxeItem;
 import net.mcreator.aetheriumresourcesreloaded.item.GlitchingSwordItem;
 import net.mcreator.aetheriumresourcesreloaded.item.GlitchingMatterItem;
 import net.mcreator.aetheriumresourcesreloaded.item.GlitchWarHammerItem;
+import net.mcreator.aetheriumresourcesreloaded.item.CrowbarItem;
 import net.mcreator.aetheriumresourcesreloaded.item.CorruptedFragmentItem;
+import net.mcreator.aetheriumresourcesreloaded.item.CalamityItem;
 import net.mcreator.aetheriumresourcesreloaded.item.AetheriumLogoItem;
 import net.mcreator.aetheriumresourcesreloaded.AetheriumResourcesReloadedMod;
 
@@ -55,6 +58,9 @@ public class AetheriumResourcesReloadedModItems {
 	public static final RegistryObject<Item> GLITCHING_SWORD = REGISTRY.register("glitching_sword", () -> new GlitchingSwordItem());
 	public static final RegistryObject<Item> GLITCHING_WAR_AXE = REGISTRY.register("glitching_war_axe", () -> new GlitchingWarAxeItem());
 	public static final RegistryObject<Item> GLITCH_WAR_HAMMER = REGISTRY.register("glitch_war_hammer", () -> new GlitchWarHammerItem());
+	public static final RegistryObject<Item> REALITY_MISFORTUNE = REGISTRY.register("reality_misfortune", () -> new RealityMisfortuneItem());
+	public static final RegistryObject<Item> CALAMITY = REGISTRY.register("calamity", () -> new CalamityItem());
+	public static final RegistryObject<Item> CROWBAR = REGISTRY.register("crowbar", () -> new CrowbarItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
