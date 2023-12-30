@@ -9,8 +9,10 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.aetheriumresourcesreloaded.procedures.RealityMisfortuneToolInHandTickProcedure;
 import net.mcreator.aetheriumresourcesreloaded.procedures.RealityMisfortuneLivingEntityIsHitWithToolProcedure;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModTabs;
 
@@ -56,5 +58,12 @@ public class RealityMisfortuneItem extends SwordItem {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A7o\u00A75\u00A7kO INFORT\u00DANIO DA REALIDADE"));
+	}
+
+	@Override
+	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+		super.inventoryTick(itemstack, world, entity, slot, selected);
+		if (selected)
+			RealityMisfortuneToolInHandTickProcedure.execute(entity);
 	}
 }

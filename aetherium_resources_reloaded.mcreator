@@ -1234,6 +1234,26 @@
         ]
       },
       "path": "~/Itens/Ferramentas/Armas/Glitch/God Weapons"
+    },
+    {
+      "name": "RealityMisfortuneToolInHandTick",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reality_misfortune_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/RealityMisfortuneToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
     }
   ],
   "variable_elements": [],

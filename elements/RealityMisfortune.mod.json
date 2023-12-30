@@ -27,6 +27,9 @@
     "damageOnCrafting": false,
     "onEntityHitWith": {
       "name": "RealityMisfortuneLivingEntityIsHitWithTool"
+    },
+    "onItemInUseTick": {
+      "name": "RealityMisfortuneToolInHandTick"
     }
   }
 }
