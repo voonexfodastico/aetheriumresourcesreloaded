@@ -21,16 +21,13 @@
     "usageCount": 250,
     "blocksAffected": [
       {
-        "value": "Blocks.IRON_BARS"
-      },
-      {
         "value": "Blocks.IRON_DOOR"
       },
       {
         "value": "Blocks.IRON_TRAPDOOR"
       },
       {
-        "value": "Blocks.WEB"
+        "value": "Blocks.IRON_BARS"
       }
     ],
     "hasGlow": false,

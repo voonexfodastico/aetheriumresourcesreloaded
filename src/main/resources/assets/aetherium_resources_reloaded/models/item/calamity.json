@@ -1,7 +1,7 @@
 {
-  "parent": "aetherium_resources_reloaded:custom/calamity",
+  "parent": "aetherium_resources_reloaded:custom/calamity1",
   "textures": {
-    "6": "aetherium_resources_reloaded:blocks/texturacalamity",
+    "0": "aetherium_resources_reloaded:blocks/texturacalamity",
     "particle": "aetherium_resources_reloaded:items/texturacalamity"
   }
 }

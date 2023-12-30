@@ -1,10 +1,7 @@
 {
-  "parent": "aetherium_resources_reloaded:custom/realitymissfourtune",
+  "parent": "aetherium_resources_reloaded:custom/realitymisfortune1",
   "textures": {
     "0": "aetherium_resources_reloaded:blocks/texturarealitymissfourtune",
-    "1": "aetherium_resources_reloaded:blocks/texturarealitymissfourtune",
-    "2": "aetherium_resources_reloaded:blocks/texturarealitymissfourtune",
-    "missing": "aetherium_resources_reloaded:blocks/texturarealitymissfourtune",
     "particle": "aetherium_resources_reloaded:items/texturarealitymissfourtune"
   }
 }
