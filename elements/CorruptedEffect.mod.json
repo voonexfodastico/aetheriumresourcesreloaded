@@ -1,0 +1,23 @@
+{
+  "_fv": 43,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Corrupted",
+    "icon": "corrupted.png",
+    "color": {
+      "value": -3407668,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "CorruptedEffectEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "CorruptedEffectOnEffectActiveTick"
+    }
+  }
+}

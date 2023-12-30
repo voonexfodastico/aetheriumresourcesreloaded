@@ -19,7 +19,6 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.aetheriumresourcesreloaded.procedures.CrowbarRightclickedOnBlockProcedure;
 import net.mcreator.aetheriumresourcesreloaded.procedures.CrowbarLivingEntityIsHitWithToolProcedure;
-import net.mcreator.aetheriumresourcesreloaded.procedures.CrowbarEntitySwingsItemProcedure;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModTabs;
 
 import java.util.List;
@@ -29,7 +28,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class CrowbarItem extends Item {
 	public CrowbarItem() {
-		super(new Item.Properties().tab(AetheriumResourcesReloadedModTabs.TAB_COMBAT_CREATIVE_TAB).durability(250));
+		super(new Item.Properties().tab(AetheriumResourcesReloadedModTabs.TAB_COMBAT_CREATIVE_TAB).durability(200));
 	}
 
 	@Override
@@ -78,12 +77,5 @@ public class CrowbarItem extends Item {
 		super.useOn(context);
 		CrowbarRightclickedOnBlockProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer(), context.getItemInHand());
 		return InteractionResult.SUCCESS;
-	}
-
-	@Override
-	public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
-		boolean retval = super.onEntitySwing(itemstack, entity);
-		CrowbarEntitySwingsItemProcedure.execute(entity.level, entity.getX(), entity.getY(), entity.getZ());
-		return retval;
 	}
 }

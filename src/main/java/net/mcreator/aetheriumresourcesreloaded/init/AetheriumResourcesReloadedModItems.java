@@ -25,6 +25,7 @@ import net.mcreator.aetheriumresourcesreloaded.item.GlitchingWarAxeItem;
 import net.mcreator.aetheriumresourcesreloaded.item.GlitchingSwordItem;
 import net.mcreator.aetheriumresourcesreloaded.item.GlitchingMatterItem;
 import net.mcreator.aetheriumresourcesreloaded.item.GlitchWarHammerItem;
+import net.mcreator.aetheriumresourcesreloaded.item.DarkMatterItem;
 import net.mcreator.aetheriumresourcesreloaded.item.CrowbarItem;
 import net.mcreator.aetheriumresourcesreloaded.item.CorruptedFragmentItem;
 import net.mcreator.aetheriumresourcesreloaded.item.CalamityItem;
@@ -62,6 +63,7 @@ public class AetheriumResourcesReloadedModItems {
 	public static final RegistryObject<Item> CALAMITY = REGISTRY.register("calamity", () -> new CalamityItem());
 	public static final RegistryObject<Item> CROWBAR = REGISTRY.register("crowbar", () -> new CrowbarItem());
 	public static final RegistryObject<Item> MINI_ALPHA = block(AetheriumResourcesReloadedModBlocks.MINI_ALPHA, AetheriumResourcesReloadedModTabs.TAB_ITENS_CREATIVE_TAB);
+	public static final RegistryObject<Item> DARK_MATTER = REGISTRY.register("dark_matter", () -> new DarkMatterItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -315,5 +315,29 @@
         "stream": false
       }
     ]
+  },
+  "glitching": {
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:glitching1",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:glitching2",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:glitching3",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:glitching4",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:glitching5",
+        "stream": false
+      }
+    ]
   }
 }
