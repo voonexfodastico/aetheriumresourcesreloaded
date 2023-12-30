@@ -18,19 +18,19 @@ import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedMo
 
 import java.util.List;
 
-public class GlitchWarHammerItem extends PickaxeItem {
-	public GlitchWarHammerItem() {
+public class DimensionalBreakerItem extends PickaxeItem {
+	public DimensionalBreakerItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 0;
 			}
 
 			public float getSpeed() {
-				return 10f;
+				return 15f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 8f;
+				return 18f;
 			}
 
 			public int getLevel() {
@@ -38,7 +38,7 @@ public class GlitchWarHammerItem extends PickaxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 15;
+				return 2;
 			}
 
 			public Ingredient getRepairIngredient() {
@@ -57,6 +57,6 @@ public class GlitchWarHammerItem extends PickaxeItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A7o\u00A75Isso n\u00E3o parece real."));
+		list.add(Component.literal("\u00A7o\u00A75\u00A7kO QUEBRA DIMENS\u00D5ES"));
 	}
 }

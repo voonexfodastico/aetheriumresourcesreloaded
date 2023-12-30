@@ -1,0 +1,7 @@
+{
+  "parent": "aetherium_resources_reloaded:custom/marretonaglitch",
+  "textures": {
+    "3": "aetherium_resources_reloaded:blocks/textura_marretona",
+    "particle": "aetherium_resources_reloaded:items/textura_marretona"
+  }
+}

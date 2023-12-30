@@ -24,7 +24,7 @@ import net.mcreator.aetheriumresourcesreloaded.item.MusicDiscCorruptioItem;
 import net.mcreator.aetheriumresourcesreloaded.item.GlitchingWarAxeItem;
 import net.mcreator.aetheriumresourcesreloaded.item.GlitchingSwordItem;
 import net.mcreator.aetheriumresourcesreloaded.item.GlitchingMatterItem;
-import net.mcreator.aetheriumresourcesreloaded.item.GlitchWarHammerItem;
+import net.mcreator.aetheriumresourcesreloaded.item.DimensionalBreakerItem;
 import net.mcreator.aetheriumresourcesreloaded.item.DarkMatterItem;
 import net.mcreator.aetheriumresourcesreloaded.item.CrowbarItem;
 import net.mcreator.aetheriumresourcesreloaded.item.CorruptedFragmentItem;
@@ -58,12 +58,12 @@ public class AetheriumResourcesReloadedModItems {
 	public static final RegistryObject<Item> AETHERIUM_LOGO = REGISTRY.register("aetherium_logo", () -> new AetheriumLogoItem());
 	public static final RegistryObject<Item> GLITCHING_SWORD = REGISTRY.register("glitching_sword", () -> new GlitchingSwordItem());
 	public static final RegistryObject<Item> GLITCHING_WAR_AXE = REGISTRY.register("glitching_war_axe", () -> new GlitchingWarAxeItem());
-	public static final RegistryObject<Item> GLITCH_WAR_HAMMER = REGISTRY.register("glitch_war_hammer", () -> new GlitchWarHammerItem());
 	public static final RegistryObject<Item> REALITY_MISFORTUNE = REGISTRY.register("reality_misfortune", () -> new RealityMisfortuneItem());
 	public static final RegistryObject<Item> CALAMITY = REGISTRY.register("calamity", () -> new CalamityItem());
 	public static final RegistryObject<Item> CROWBAR = REGISTRY.register("crowbar", () -> new CrowbarItem());
 	public static final RegistryObject<Item> MINI_ALPHA = block(AetheriumResourcesReloadedModBlocks.MINI_ALPHA, AetheriumResourcesReloadedModTabs.TAB_ITENS_CREATIVE_TAB);
 	public static final RegistryObject<Item> DARK_MATTER = REGISTRY.register("dark_matter", () -> new DarkMatterItem());
+	public static final RegistryObject<Item> DIMENSIONAL_BREAKER = REGISTRY.register("dimensional_breaker", () -> new DimensionalBreakerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
