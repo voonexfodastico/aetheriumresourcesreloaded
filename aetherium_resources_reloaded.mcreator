@@ -979,6 +979,110 @@
         ]
       },
       "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "CrowbarLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crowbar_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/CrowbarLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "CrowbarRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crowbar_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/CrowbarRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "CrowbarEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crowbar_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/CrowbarEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
     }
   ],
   "variable_elements": [],
@@ -1154,6 +1258,33 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "crowbarhitliving",
+      "files": [
+        "cbar_hitbod1_online-audio-converter.com",
+        "cbar_hitbod2",
+        "cbar_hitbod3"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "crowbarhitblock",
+      "files": [
+        "cbar_hit1",
+        "cbar_hit2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "crowbarmiss",
+      "files": [
+        "cbar_miss1_online-audio-converter.com"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -1183,9 +1314,11 @@
       "block.aetherium_resources_reloaded.block_glitch_02_decorative": "§dGlitch Block B (Decorative)",
       "subtitles.falling_apart_disc": "Mus1c",
       "advancements.infinitus_advancement.title": "Why would you do this..? ",
+      "subtitles.crowbarhitblock": "",
       "item.aetherium_resources_reloaded.music_disc_infinitus.desc": "Andrii Floria - Amok",
       "subtitles.glitchblockplacing": "\u0026!!\u0026*$@",
       "item.aetherium_resources_reloaded.music_disc_corruptio": "Corruptio Veritas",
+      "subtitles.crowbarmiss": "",
       "item.aetherium_resources_reloaded.music_disc_wake_up.desc": "Andrii Floria - Bedridden",
       "item.aetherium_resources_reloaded.music_disc_infinitus": "Infinitus Mortum",
       "block.aetherium_resources_reloaded.block_glitch_01_decorative": "§dGlitch Block A (Decorative)",
@@ -1208,6 +1341,7 @@
       "item.aetherium_resources_reloaded.aetherium_logo": "AetheriumSMP",
       "subtitles.glitchblockstep2": "@%!\u0026!#",
       "itemGroup.tabitens_creative_tab": "Aetherium Resources: Items",
+      "subtitles.crowbarhitliving": "",
       "subtitles.glitchblockstep": "!\u0026$#\u0026!#",
       "item.aetherium_resources_reloaded.glitching_war_axe": "Glitching Waraxe",
       "subtitles.realitycut": "",
@@ -1255,9 +1389,11 @@
       "block.aetherium_resources_reloaded.block_glitch_02_decorative": "§dBloco de Glitch B (Decorativo)",
       "subtitles.falling_apart_disc": "Mús1c4",
       "advancements.infinitus_advancement.title": "Por que você faria isso..? ",
+      "subtitles.crowbarhitblock": "",
       "item.aetherium_resources_reloaded.music_disc_infinitus.desc": "Andrii Floria - Amok",
       "subtitles.glitchblockplacing": "\u0026!!\u0026*$@",
       "item.aetherium_resources_reloaded.music_disc_corruptio": "Corruptio Veritas",
+      "subtitles.crowbarmiss": "",
       "item.aetherium_resources_reloaded.music_disc_wake_up.desc": "Andrii Floria - Bedridden",
       "item.aetherium_resources_reloaded.music_disc_infinitus": "Infinitus Mortum",
       "block.aetherium_resources_reloaded.block_glitch_01_decorative": "§dBloco de Glitch A (Decorativo)",
@@ -1280,6 +1416,7 @@
       "item.aetherium_resources_reloaded.aetherium_logo": "AetheriumSMP",
       "subtitles.glitchblockstep2": "@%!\u0026!#",
       "itemGroup.tabitens_creative_tab": "Aetherium Resources: Itens",
+      "subtitles.crowbarhitliving": "",
       "subtitles.glitchblockstep": "!\u0026$#\u0026!#",
       "item.aetherium_resources_reloaded.glitching_war_axe": "Machado de Glitch",
       "subtitles.realitycut": "",

@@ -4,6 +4,7 @@ package net.mcreator.aetheriumresourcesreloaded.item;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
@@ -12,9 +13,13 @@ import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.InteractionResult;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.aetheriumresourcesreloaded.procedures.CrowbarRightclickedOnBlockProcedure;
+import net.mcreator.aetheriumresourcesreloaded.procedures.CrowbarLivingEntityIsHitWithToolProcedure;
+import net.mcreator.aetheriumresourcesreloaded.procedures.CrowbarEntitySwingsItemProcedure;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModTabs;
 
 import java.util.List;
@@ -29,7 +34,7 @@ public class CrowbarItem extends Item {
 
 	@Override
 	public float getDestroySpeed(ItemStack itemstack, BlockState blockstate) {
-		return List.of(Blocks.IRON_DOOR, Blocks.IRON_TRAPDOOR, Blocks.IRON_BARS).contains(blockstate.getBlock()) ? 15f : 1;
+		return List.of(Blocks.IRON_DOOR, Blocks.IRON_TRAPDOOR, Blocks.IRON_BARS).contains(blockstate.getBlock()) ? 8f : 1;
 	}
 
 	@Override
@@ -41,6 +46,7 @@ public class CrowbarItem extends Item {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		itemstack.hurtAndBreak(2, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
+		CrowbarLivingEntityIsHitWithToolProcedure.execute(entity.level, entity.getX(), entity.getY(), entity.getZ());
 		return true;
 	}
 
@@ -65,5 +71,19 @@ public class CrowbarItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("\u00A7o\u00A76O terceiro p\u00E9 de cabra!"));
+	}
+
+	@Override
+	public InteractionResult useOn(UseOnContext context) {
+		super.useOn(context);
+		CrowbarRightclickedOnBlockProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer(), context.getItemInHand());
+		return InteractionResult.SUCCESS;
+	}
+
+	@Override
+	public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
+		boolean retval = super.onEntitySwing(itemstack, entity);
+		CrowbarEntitySwingsItemProcedure.execute(entity.level, entity.getX(), entity.getY(), entity.getZ());
+		return retval;
 	}
 }

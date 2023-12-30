@@ -271,5 +271,41 @@
         "stream": false
       }
     ]
+  },
+  "crowbarhitliving": {
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:cbar_hitbod1_online-audio-converter.com",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:cbar_hitbod2",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:cbar_hitbod3",
+        "stream": false
+      }
+    ]
+  },
+  "crowbarhitblock": {
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:cbar_hit1",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:cbar_hit2",
+        "stream": false
+      }
+    ]
+  },
+  "crowbarmiss": {
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:cbar_miss1_online-audio-converter.com",
+        "stream": false
+      }
+    ]
   }
 }
