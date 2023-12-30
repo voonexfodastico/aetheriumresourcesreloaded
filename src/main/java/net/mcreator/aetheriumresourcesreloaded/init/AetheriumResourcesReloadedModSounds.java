@@ -32,4 +32,5 @@ public class AetheriumResourcesReloadedModSounds {
 	public static final RegistryObject<SoundEvent> MUSIC_DISC_CORRUPTIO = REGISTRY.register("music_disc_corruptio", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "music_disc_corruptio")));
 	public static final RegistryObject<SoundEvent> MUSIC_DISC_INFINUTUS1 = REGISTRY.register("music_disc_infinutus1", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "music_disc_infinutus1")));
 	public static final RegistryObject<SoundEvent> MUSIC_DISC_FALLINGAPART = REGISTRY.register("music_disc_fallingapart", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "music_disc_fallingapart")));
+	public static final RegistryObject<SoundEvent> REALITYCUT = REGISTRY.register("realitycut", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "realitycut")));
 }

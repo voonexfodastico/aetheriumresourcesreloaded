@@ -8,8 +8,10 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.aetheriumresourcesreloaded.procedures.RealityMisfortuneLivingEntityIsHitWithToolProcedure;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModTabs;
 
 import java.util.List;
@@ -41,6 +43,13 @@ public class RealityMisfortuneItem extends SwordItem {
 				return Ingredient.of();
 			}
 		}, 3, -3.6f, new Item.Properties().tab(AetheriumResourcesReloadedModTabs.TAB_COMBAT_CREATIVE_TAB).fireResistant());
+	}
+
+	@Override
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		RealityMisfortuneLivingEntityIsHitWithToolProcedure.execute(entity.level, entity.getX(), entity.getY(), entity.getZ());
+		return retval;
 	}
 
 	@Override

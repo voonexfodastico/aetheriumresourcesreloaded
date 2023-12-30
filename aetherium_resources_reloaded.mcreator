@@ -947,6 +947,38 @@
         ]
       },
       "path": "~/Itens/Ferramentas"
+    },
+    {
+      "name": "RealityMisfortuneLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reality_misfortune_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/RealityMisfortuneLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
     }
   ],
   "variable_elements": [],
@@ -1114,6 +1146,14 @@
       ],
       "category": "record",
       "subtitle": "Mus1c"
+    },
+    {
+      "name": "realitycut",
+      "files": [
+        "realitycut_online-audio-converter.com"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -1170,6 +1210,7 @@
       "itemGroup.tabitens_creative_tab": "Aetherium Resources: Items",
       "subtitles.glitchblockstep": "!\u0026$#\u0026!#",
       "item.aetherium_resources_reloaded.glitching_war_axe": "Glitching Waraxe",
+      "subtitles.realitycut": "",
       "block.aetherium_resources_reloaded.infected_red_sand_block": "R3d S4nd",
       "item.aetherium_resources_reloaded.crowbar": "Crowbar",
       "advancements.welcome_to_aetherium.descr": "You have the Mod Installed.",
@@ -1241,8 +1282,9 @@
       "itemGroup.tabitens_creative_tab": "Aetherium Resources: Itens",
       "subtitles.glitchblockstep": "!\u0026$#\u0026!#",
       "item.aetherium_resources_reloaded.glitching_war_axe": "Machado de Glitch",
+      "subtitles.realitycut": "",
       "block.aetherium_resources_reloaded.infected_red_sand_block": "Ar3i4 V3rmelh4",
-      "item.aetherium_resources_reloaded.crowbar": "Crowbar",
+      "item.aetherium_resources_reloaded.crowbar": "Pé de Cabra",
       "advancements.welcome_to_aetherium.descr": "Você tem o Mod Instalado.",
       "item.aetherium_resources_reloaded.music_disc_distortion.desc": "Andrii Floria - Field of distorted thoughts",
       "advancements.the_start_of_everything_advancement.descr": "It starts to go downhill.",

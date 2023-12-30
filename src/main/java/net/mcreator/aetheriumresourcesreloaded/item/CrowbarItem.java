@@ -29,7 +29,7 @@ public class CrowbarItem extends Item {
 
 	@Override
 	public float getDestroySpeed(ItemStack itemstack, BlockState blockstate) {
-		return List.of(Blocks.IRON_DOOR, Blocks.IRON_TRAPDOOR, Blocks.IRON_BARS).contains(blockstate.getBlock()) ? 4f : 1;
+		return List.of(Blocks.IRON_DOOR, Blocks.IRON_TRAPDOOR, Blocks.IRON_BARS).contains(blockstate.getBlock()) ? 15f : 1;
 	}
 
 	@Override

@@ -263,5 +263,13 @@
         "stream": true
       }
     ]
+  },
+  "realitycut": {
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:realitycut_online-audio-converter.com",
+        "stream": false
+      }
+    ]
   }
 }

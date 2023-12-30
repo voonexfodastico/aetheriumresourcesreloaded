@@ -11,5 +11,13 @@ public class GlitchWarHammerBlockDestroyedWithToolProcedure {
 		world.destroyBlock(new BlockPos(x, y - 1, z), false);
 		world.destroyBlock(new BlockPos(x, y, z + 1), false);
 		world.destroyBlock(new BlockPos(x, y, z - 1), false);
+		world.destroyBlock(new BlockPos(x + 1, y + 1, z), false);
+		world.destroyBlock(new BlockPos(x - 1, y + 1, z), false);
+		world.destroyBlock(new BlockPos(x + 1, y - 1, z), false);
+		world.destroyBlock(new BlockPos(x - 1, y - 1, z), false);
+		world.destroyBlock(new BlockPos(x, y + 1, z + 1), false);
+		world.destroyBlock(new BlockPos(x, y + 1, z - 1), false);
+		world.destroyBlock(new BlockPos(x, y - 1, z + 1), false);
+		world.destroyBlock(new BlockPos(x, y - 1, z - 1), false);
 	}
 }
