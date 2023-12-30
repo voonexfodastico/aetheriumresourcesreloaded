@@ -1,0 +1,32 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "espadaglitch5",
+    "customModelName": "Normal",
+    "name": "Glitching Warhammer",
+    "specialInfo": [
+      "§5Isso não parece real."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:CombatCreativeTab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 10.0,
+    "attackSpeed": 0.9,
+    "enchantability": 15,
+    "damageVsEntity": 10.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "GlitchWarHammerBlockDestroyedWithTool"
+    }
+  }
+}

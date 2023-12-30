@@ -20,7 +20,10 @@ import net.mcreator.aetheriumresourcesreloaded.item.MusicDiscFalseRealityItem;
 import net.mcreator.aetheriumresourcesreloaded.item.MusicDiscFallingApartItem;
 import net.mcreator.aetheriumresourcesreloaded.item.MusicDiscDistortionItem;
 import net.mcreator.aetheriumresourcesreloaded.item.MusicDiscCorruptioItem;
+import net.mcreator.aetheriumresourcesreloaded.item.GlitchingWarAxeItem;
+import net.mcreator.aetheriumresourcesreloaded.item.GlitchingSwordItem;
 import net.mcreator.aetheriumresourcesreloaded.item.GlitchingMatterItem;
+import net.mcreator.aetheriumresourcesreloaded.item.GlitchWarHammerItem;
 import net.mcreator.aetheriumresourcesreloaded.item.CorruptedFragmentItem;
 import net.mcreator.aetheriumresourcesreloaded.item.AetheriumLogoItem;
 import net.mcreator.aetheriumresourcesreloaded.AetheriumResourcesReloadedMod;
@@ -49,6 +52,9 @@ public class AetheriumResourcesReloadedModItems {
 	public static final RegistryObject<Item> MUSIC_DISC_YRE = REGISTRY.register("music_disc_yre", () -> new MusicDiscYREItem());
 	public static final RegistryObject<Item> MUSIC_DISC_DISTORTION = REGISTRY.register("music_disc_distortion", () -> new MusicDiscDistortionItem());
 	public static final RegistryObject<Item> AETHERIUM_LOGO = REGISTRY.register("aetherium_logo", () -> new AetheriumLogoItem());
+	public static final RegistryObject<Item> GLITCHING_SWORD = REGISTRY.register("glitching_sword", () -> new GlitchingSwordItem());
+	public static final RegistryObject<Item> GLITCHING_WAR_AXE = REGISTRY.register("glitching_war_axe", () -> new GlitchingWarAxeItem());
+	public static final RegistryObject<Item> GLITCH_WAR_HAMMER = REGISTRY.register("glitch_war_hammer", () -> new GlitchWarHammerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

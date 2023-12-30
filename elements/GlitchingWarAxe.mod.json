@@ -1,0 +1,29 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "espadaglitch2",
+    "customModelName": "Normal",
+    "name": "Glitching Waraxe",
+    "specialInfo": [
+      "§5Isso não parece real."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:CombatCreativeTab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.7,
+    "enchantability": 15,
+    "damageVsEntity": 15.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
