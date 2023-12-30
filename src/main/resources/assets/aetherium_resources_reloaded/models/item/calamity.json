@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "aetherium_resources_reloaded:custom/calamity",
   "textures": {
-    "layer0": "aetherium_resources_reloaded:items/texturacalamity"
+    "6": "aetherium_resources_reloaded:blocks/texturacalamity",
+    "particle": "aetherium_resources_reloaded:items/texturacalamity"
   }
 }

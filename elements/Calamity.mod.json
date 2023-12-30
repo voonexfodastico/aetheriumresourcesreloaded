@@ -2,9 +2,9 @@
   "_fv": 43,
   "_type": "tool",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "texturacalamity",
-    "customModelName": "Normal",
+    "customModelName": "calamity:default",
     "name": "§dCalamity Bringer",
     "specialInfo": [
       "§o§5§kO MACHADO DA CALAMIDADE"

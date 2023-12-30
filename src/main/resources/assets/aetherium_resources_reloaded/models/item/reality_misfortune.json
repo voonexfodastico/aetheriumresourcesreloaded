@@ -1,6 +1,10 @@
 {
-  "parent": "item/handheld",
+  "parent": "aetherium_resources_reloaded:custom/realitymissfourtune",
   "textures": {
-    "layer0": "aetherium_resources_reloaded:items/texturarealitymissfourtune"
+    "0": "aetherium_resources_reloaded:blocks/texturarealitymissfourtune",
+    "1": "aetherium_resources_reloaded:blocks/texturarealitymissfourtune",
+    "2": "aetherium_resources_reloaded:blocks/texturarealitymissfourtune",
+    "missing": "aetherium_resources_reloaded:blocks/texturarealitymissfourtune",
+    "particle": "aetherium_resources_reloaded:items/texturarealitymissfourtune"
   }
 }

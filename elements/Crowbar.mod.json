@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 1,
     "texture": "texturacrowbar",
-    "customModelName": "crowbar:default",
+    "customModelName": "crowbar1:default",
     "name": "Crowbar",
     "specialInfo": [
       "§o§6O terceiro pé de cabra!"
