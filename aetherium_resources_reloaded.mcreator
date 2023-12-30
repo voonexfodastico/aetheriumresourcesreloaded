@@ -1083,6 +1083,55 @@
         ]
       },
       "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "MiniAlphaOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_alpha_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/MiniAlphaOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "MiniAlpha",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_alpha",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/mini_alpha.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/mini_alpha.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/blockstates/mini_alpha.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/block/MiniAlphaBlock.java"
+        ]
+      },
+      "path": "~/Blocos/Misc"
     }
   ],
   "variable_elements": [],
@@ -1285,6 +1334,14 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "yipiminialpha",
+      "files": [
+        "yippee-tbh_online-audio-converter.com"
+      ],
+      "category": "block",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -1311,6 +1368,7 @@
       "block.aetherium_resources_reloaded.block_glitch_01": "§dGlitch Block A",
       "block.aetherium_resources_reloaded.block_glitch_04": "§dGlitch Block D",
       "advancements.the_start_of_everything_advancement.title": "The Start Of Everything",
+      "subtitles.yipiminialpha": "",
       "block.aetherium_resources_reloaded.block_glitch_02_decorative": "§dGlitch Block B (Decorative)",
       "subtitles.falling_apart_disc": "Mus1c",
       "advancements.infinitus_advancement.title": "Why would you do this..? ",
@@ -1342,6 +1400,7 @@
       "subtitles.glitchblockstep2": "@%!\u0026!#",
       "itemGroup.tabitens_creative_tab": "Aetherium Resources: Items",
       "subtitles.crowbarhitliving": "",
+      "block.aetherium_resources_reloaded.mini_alpha": "Mini Alpha",
       "subtitles.glitchblockstep": "!\u0026$#\u0026!#",
       "item.aetherium_resources_reloaded.glitching_war_axe": "Glitching Waraxe",
       "subtitles.realitycut": "",
@@ -1386,6 +1445,7 @@
       "block.aetherium_resources_reloaded.block_glitch_01": "§dBloco de Glitch A",
       "block.aetherium_resources_reloaded.block_glitch_04": "§dBloco de Glitch D",
       "advancements.the_start_of_everything_advancement.title": "O começo de tudo",
+      "subtitles.yipiminialpha": "",
       "block.aetherium_resources_reloaded.block_glitch_02_decorative": "§dBloco de Glitch B (Decorativo)",
       "subtitles.falling_apart_disc": "Mús1c4",
       "advancements.infinitus_advancement.title": "Por que você faria isso..? ",
@@ -1417,6 +1477,7 @@
       "subtitles.glitchblockstep2": "@%!\u0026!#",
       "itemGroup.tabitens_creative_tab": "Aetherium Resources: Itens",
       "subtitles.crowbarhitliving": "",
+      "block.aetherium_resources_reloaded.mini_alpha": "Mini Alpha",
       "subtitles.glitchblockstep": "!\u0026$#\u0026!#",
       "item.aetherium_resources_reloaded.glitching_war_axe": "Machado de Glitch",
       "subtitles.realitycut": "",

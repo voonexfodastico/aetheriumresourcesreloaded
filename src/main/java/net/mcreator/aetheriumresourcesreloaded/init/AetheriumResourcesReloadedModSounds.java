@@ -36,4 +36,5 @@ public class AetheriumResourcesReloadedModSounds {
 	public static final RegistryObject<SoundEvent> CROWBARHITLIVING = REGISTRY.register("crowbarhitliving", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "crowbarhitliving")));
 	public static final RegistryObject<SoundEvent> CROWBARHITBLOCK = REGISTRY.register("crowbarhitblock", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "crowbarhitblock")));
 	public static final RegistryObject<SoundEvent> CROWBARMISS = REGISTRY.register("crowbarmiss", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "crowbarmiss")));
+	public static final RegistryObject<SoundEvent> YIPIMINIALPHA = REGISTRY.register("yipiminialpha", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "yipiminialpha")));
 }

@@ -61,6 +61,7 @@ public class AetheriumResourcesReloadedModItems {
 	public static final RegistryObject<Item> REALITY_MISFORTUNE = REGISTRY.register("reality_misfortune", () -> new RealityMisfortuneItem());
 	public static final RegistryObject<Item> CALAMITY = REGISTRY.register("calamity", () -> new CalamityItem());
 	public static final RegistryObject<Item> CROWBAR = REGISTRY.register("crowbar", () -> new CrowbarItem());
+	public static final RegistryObject<Item> MINI_ALPHA = block(AetheriumResourcesReloadedModBlocks.MINI_ALPHA, AetheriumResourcesReloadedModTabs.TAB_ITENS_CREATIVE_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

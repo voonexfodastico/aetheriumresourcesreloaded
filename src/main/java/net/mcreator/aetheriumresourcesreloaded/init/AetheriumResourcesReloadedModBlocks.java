@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.aetheriumresourcesreloaded.block.PaneBlockGlitch03Block;
+import net.mcreator.aetheriumresourcesreloaded.block.MiniAlphaBlock;
 import net.mcreator.aetheriumresourcesreloaded.block.InfectedStoneBlockBlock;
 import net.mcreator.aetheriumresourcesreloaded.block.InfectedSandBlockBlock;
 import net.mcreator.aetheriumresourcesreloaded.block.InfectedRedSandBlockBlock;
@@ -38,4 +39,5 @@ public class AetheriumResourcesReloadedModBlocks {
 	public static final RegistryObject<Block> INFECTED_SAND_BLOCK = REGISTRY.register("infected_sand_block", () -> new InfectedSandBlockBlock());
 	public static final RegistryObject<Block> INFECTED_RED_SAND_BLOCK = REGISTRY.register("infected_red_sand_block", () -> new InfectedRedSandBlockBlock());
 	public static final RegistryObject<Block> INFECTED_STONE_BLOCK = REGISTRY.register("infected_stone_block", () -> new InfectedStoneBlockBlock());
+	public static final RegistryObject<Block> MINI_ALPHA = REGISTRY.register("mini_alpha", () -> new MiniAlphaBlock());
 }

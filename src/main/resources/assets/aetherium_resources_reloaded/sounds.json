@@ -307,5 +307,13 @@
         "stream": false
       }
     ]
+  },
+  "yipiminialpha": {
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:yippee-tbh_online-audio-converter.com",
+        "stream": false
+      }
+    ]
   }
 }
