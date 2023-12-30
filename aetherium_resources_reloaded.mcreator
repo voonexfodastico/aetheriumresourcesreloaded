@@ -1254,6 +1254,26 @@
         ]
       },
       "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "Glitchingeffect",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitchingeffect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/GlitchingeffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
     }
   ],
   "variable_elements": [],
@@ -1624,8 +1644,8 @@
       "item.aetherium_resources_reloaded.crowbar": "Pé de Cabra",
       "advancements.welcome_to_aetherium.descr": "Você tem o Mod Instalado.",
       "item.aetherium_resources_reloaded.music_disc_distortion.desc": "Andrii Floria - Field of distorted thoughts",
-      "item.aetherium_resources_reloaded.dimensional_breaker": "§dDimensional Breaker",
-      "advancements.the_start_of_everything_advancement.descr": "It starts to go downhill.",
+      "item.aetherium_resources_reloaded.dimensional_breaker": "§dQuebra-Dimensões",
+      "advancements.the_start_of_everything_advancement.descr": "E tudo desce ladeira abaixo.",
       "item.aetherium_resources_reloaded.music_disc_wake_up": "Wake Up!",
       "painting.aetherium_resources_reloaded.agrs_logo_painting.title": "O Passado",
       "subtitles.music_disc_fallingapart": "Mús1c4",
@@ -1819,10 +1839,17 @@
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "ilustracao2",
-    "requiredMods": [],
-    "dependencies": [],
+    "requiredMods": [
+      "kleiders_custom_renderer",
+      "geckolib3"
+    ],
+    "dependencies": [
+      "kleiders_custom_renderer",
+      "geckolib3"
+    ],
     "dependants": [],
     "mcreatorDependencies": [
+      "kleidersplayerrenderer",
       "geckolib"
     ],
     "currentGenerator": "forge-1.19.2",

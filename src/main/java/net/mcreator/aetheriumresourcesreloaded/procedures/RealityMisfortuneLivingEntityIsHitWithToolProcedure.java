@@ -25,6 +25,6 @@ public class RealityMisfortuneLivingEntityIsHitWithToolProcedure {
 			}
 		}
 		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-			_entity.addEffect(new MobEffectInstance(AetheriumResourcesReloadedModMobEffects.CORRUPTED_EFFECT.get(), 480, 1));
+			_entity.addEffect(new MobEffectInstance(AetheriumResourcesReloadedModMobEffects.CORRUPTED_EFFECT.get(), 60, 1));
 	}
 }

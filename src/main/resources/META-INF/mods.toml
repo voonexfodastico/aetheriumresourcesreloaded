@@ -20,7 +20,37 @@ description="Mod made for AetheriumSMP!"
     side="BOTH"
 
 
+[[dependencies.aetherium_resources_reloaded]]
+    modId="kleiders_custom_renderer"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.aetherium_resources_reloaded]]
+    modId="geckolib3"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
+[[dependencies.aetherium_resources_reloaded]]
+    modId="kleidersplayerrenderer"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.aetherium_resources_reloaded]]
+    modId="kleiders_custom_renderer"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.aetherium_resources_reloaded]]
+    modId="geckolib3"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 [[dependencies.aetherium_resources_reloaded]]
     modId="geckolib"
     mandatory=false
