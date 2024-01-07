@@ -950,6 +950,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -1133,22 +1137,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -1270,6 +1258,224 @@
           {
             "name": "entity",
             "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "Syringe",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/syringe.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/SyringeItem.java"
+        ]
+      },
+      "path": "~/Itens/Misc"
+    },
+    {
+      "name": "BloodSyringe",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_syringe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/blood_syringe.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/BloodSyringeItem.java"
+        ]
+      },
+      "path": "~/Itens/Misc"
+    },
+    {
+      "name": "SyringeLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/SyringeLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "GlitchSyringe",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitch_syringe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/glitch_syringe.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/GlitchSyringeItem.java"
+        ]
+      },
+      "path": "~/Itens/Misc"
+    },
+    {
+      "name": "GlitchSyringeLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitch_syringe_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/GlitchSyringeLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "GlitchSyringePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitch_syringe_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/GlitchSyringePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "GlitchingSyringeRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitching_syringe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/recipes/brewing/GlitchingSyringeRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Misc/Crafting/Itens"
+    },
+    {
+      "name": "VoidStone",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/void_stone.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/void_stone.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/blockstates/void_stone.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/block/VoidStoneBlock.java"
+        ]
+      },
+      "path": "~/Blocos/Void"
+    },
+    {
+      "name": "VoidMatterBlock",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_matter_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/block/VoidMatterBlockBlock.java",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/block/void_matter_block.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/void_matter_block.json",
+          "src/main/resources/assets/aetherium_resources_reloaded/blockstates/void_matter_block.json"
+        ]
+      },
+      "path": "~/Blocos/Void"
+    },
+    {
+      "name": "VoidIslands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_islands",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/world/biome/VoidIslandsBiome.java"
+        ]
+      },
+      "path": "~/Generation/Biomas"
+    },
+    {
+      "name": "VoidDimension",
+      "type": "dimension",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/world/dimension/VoidDimensionDimension.java",
+          "src/main/resources/data/aetherium_resources_reloaded/dimension_type/void_dimension.json",
+          "src/main/resources/data/aetherium_resources_reloaded/dimension/void_dimension.json"
+        ]
+      },
+      "path": "~/Generation/Dimensoes"
+    },
+    {
+      "name": "Voidsky",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidsky",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/VoidskyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "dimension",
+            "type": "dimensiontype"
+          },
+          {
+            "name": "pose",
+            "type": "pose"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -1503,10 +1709,13 @@
       "block.aetherium_resources_reloaded.infected_dirt_block": "D1rt",
       "item.aetherium_resources_reloaded.music_disc_distortion": "Depravata Veritas ",
       "subtitles.glitchblockhit": "!*\u0026%#\u0026*!",
+      "item.aetherium_resources_reloaded.glitch_syringe": "Glitching Syringe",
       "subtitles.music_disc_false_reality": "Mus1c",
       "subtitles.glitchblockfall": "$#\u0026%#@!",
+      "procedure.text.syringe": "Blood of ",
       "block.aetherium_resources_reloaded.infected_sand_block": "S4nd",
       "item.aetherium_resources_reloaded.music_disc_yre.desc": "Andrii Floria - Stars, Tragedy",
+      "block.aetherium_resources_reloaded.void_stone": "Void Stone",
       "subtitles.glitchblockhit2": "@%!\u0026!#",
       "subtitles.music_disc_depravata": "Mus1c",
       "subtitles.glitching": "",
@@ -1515,16 +1724,18 @@
       "item.aetherium_resources_reloaded.corrupted_fragment": "Corrupted Fragment",
       "block.aetherium_resources_reloaded.pane_block_glitch_03": "§dGlitch Block C Pane",
       "subtitles.glitchblockfalling2": "@%!\u0026!#",
+      "block.aetherium_resources_reloaded.void_matter_block": "Void Matter Block",
       "subtitles.disc_corruptio": "Mus1c",
       "item.aetherium_resources_reloaded.glitching_sword": "Glitching Sword",
       "subtitles.corruptio_disc": "Mus1c",
+      "item.aetherium_resources_reloaded.blood_syringe": "Blood Syringe",
       "block.aetherium_resources_reloaded.block_glitch_03": "§dGlitch Block C",
       "block.aetherium_resources_reloaded.block_glitch_02": "§dGlitch Block B",
       "block.aetherium_resources_reloaded.block_glitch_01": "§dGlitch Block A",
       "effect.aetherium_resources_reloaded.corrupted_effect": "Corrupted",
       "block.aetherium_resources_reloaded.block_glitch_04": "§dGlitch Block D",
       "advancements.the_start_of_everything_advancement.title": "The Start Of Everything",
-      "subtitles.yipiminialpha": "",
+      "subtitles.yipiminialpha": "YIPIIIII",
       "block.aetherium_resources_reloaded.block_glitch_02_decorative": "§dGlitch Block B (Decorative)",
       "subtitles.falling_apart_disc": "Mus1c",
       "advancements.infinitus_advancement.title": "Why would you do this..? ",
@@ -1540,6 +1751,7 @@
       "subtitles.glitchblockplacing2": "@%!\u0026!#",
       "advancements.infinitus_advancement.descr": "Craft the Infinitus Disc.",
       "item.aetherium_resources_reloaded.reality_misfortune": "§dReality Misfortune",
+      "biome.aetherium_resources_reloaded.void_islands": "Void Islands",
       "item.aetherium_resources_reloaded.music_disc_yre": "You Ruined Everything",
       "item.aetherium_resources_reloaded.music_disc_falling_apart.desc": "Andrii Floria - Trash",
       "itemGroup.tabcombat_creative_tab": "Aetherium Resources: Combat",
@@ -1559,6 +1771,7 @@
       "subtitles.glitchblockstep": "!\u0026$#\u0026!#",
       "item.aetherium_resources_reloaded.glitching_war_axe": "Glitching Waraxe",
       "subtitles.realitycut": "",
+      "item.aetherium_resources_reloaded.syringe": "Syringe",
       "block.aetherium_resources_reloaded.infected_red_sand_block": "R3d S4nd",
       "item.aetherium_resources_reloaded.crowbar": "Crowbar",
       "advancements.welcome_to_aetherium.descr": "You have the Mod Installed.",
@@ -1569,7 +1782,7 @@
       "painting.aetherium_resources_reloaded.agrs_logo_painting.title": "The Past",
       "subtitles.music_disc_fallingapart": "Mus1c",
       "itemGroup.tabblocos_creative_tab": "Aetherium Resources: Blocks",
-      "item.aetherium_resources_reloaded.dark_matter": "Dark Matter",
+      "item.aetherium_resources_reloaded.dark_matter": "Void Matter",
       "subtitles.glitchblockbreaking": "@*(!)!#)(*\u0026¨!(*",
       "subtitles.music_disc_infinutus1": "Mus1c",
       "subtitles.glitchblockbreaking2": "@%!\u0026!#",
@@ -1584,10 +1797,13 @@
       "block.aetherium_resources_reloaded.infected_dirt_block": "T3rr4",
       "item.aetherium_resources_reloaded.music_disc_distortion": "Depravata Veritas ",
       "subtitles.glitchblockhit": "!*\u0026%#\u0026*!",
+      "item.aetherium_resources_reloaded.glitch_syringe": "Seringa de Glitch",
       "subtitles.music_disc_false_reality": "Mús1c4",
       "subtitles.glitchblockfall": "$#\u0026%#@!",
+      "procedure.text.syringe": "Sangue de ",
       "block.aetherium_resources_reloaded.infected_sand_block": "Ar3i4",
       "item.aetherium_resources_reloaded.music_disc_yre.desc": "Andrii Floria - Stars, Tragedy",
+      "block.aetherium_resources_reloaded.void_stone": "Pedra do Vazio",
       "subtitles.glitchblockhit2": "@%!\u0026!#",
       "subtitles.music_disc_depravata": "Mús1c4",
       "subtitles.glitching": "",
@@ -1596,9 +1812,11 @@
       "item.aetherium_resources_reloaded.corrupted_fragment": "Fragmento Corrompido",
       "block.aetherium_resources_reloaded.pane_block_glitch_03": "§dPainel de Bloco de Glitch C",
       "subtitles.glitchblockfalling2": "@%!\u0026!#",
+      "block.aetherium_resources_reloaded.void_matter_block": "Void Stone",
       "subtitles.disc_corruptio": "Mús1c4",
       "item.aetherium_resources_reloaded.glitching_sword": "Espada de Glitch",
       "subtitles.corruptio_disc": "Mús1c4",
+      "item.aetherium_resources_reloaded.blood_syringe": "Seringa com Sangue",
       "block.aetherium_resources_reloaded.block_glitch_03": "§dBloco de Glitch C",
       "block.aetherium_resources_reloaded.block_glitch_02": "§dBloco de Glitch B",
       "block.aetherium_resources_reloaded.block_glitch_01": "§dBloco de Glitch A",
@@ -1621,6 +1839,7 @@
       "subtitles.glitchblockplacing2": "@%!\u0026!#",
       "advancements.infinitus_advancement.descr": "Faça o Disco Infinitus.",
       "item.aetherium_resources_reloaded.reality_misfortune": "§dInfortúnio da Realidade",
+      "biome.aetherium_resources_reloaded.void_islands": "Void Islands",
       "item.aetherium_resources_reloaded.music_disc_yre": "You Ruined Everything",
       "item.aetherium_resources_reloaded.music_disc_falling_apart.desc": "Andrii Floria - Trash",
       "itemGroup.tabcombat_creative_tab": "Aetherium Resources: Combate",
@@ -1640,6 +1859,7 @@
       "subtitles.glitchblockstep": "!\u0026$#\u0026!#",
       "item.aetherium_resources_reloaded.glitching_war_axe": "Machado de Glitch",
       "subtitles.realitycut": "",
+      "item.aetherium_resources_reloaded.syringe": "Seringa",
       "block.aetherium_resources_reloaded.infected_red_sand_block": "Ar3i4 V3rmelh4",
       "item.aetherium_resources_reloaded.crowbar": "Pé de Cabra",
       "advancements.welcome_to_aetherium.descr": "Você tem o Mod Instalado.",
@@ -1650,7 +1870,7 @@
       "painting.aetherium_resources_reloaded.agrs_logo_painting.title": "O Passado",
       "subtitles.music_disc_fallingapart": "Mús1c4",
       "itemGroup.tabblocos_creative_tab": "Aetherium Resources: Blocks",
-      "item.aetherium_resources_reloaded.dark_matter": "Matéria Escura",
+      "item.aetherium_resources_reloaded.dark_matter": "Matéria do Vazio",
       "subtitles.glitchblockbreaking": "@*(!)!#)(*\u0026¨!(*",
       "subtitles.music_disc_infinutus1": "Mús1c4",
       "subtitles.glitchblockbreaking2": "@%!\u0026!#",
@@ -1708,6 +1928,10 @@
           },
           {
             "name": "Misc",
+            "children": []
+          },
+          {
+            "name": "Void",
             "children": []
           }
         ]
@@ -1823,6 +2047,19 @@
                 ]
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Generation",
+        "children": [
+          {
+            "name": "Biomas",
+            "children": []
+          },
+          {
+            "name": "Dimensoes",
+            "children": []
           }
         ]
       }

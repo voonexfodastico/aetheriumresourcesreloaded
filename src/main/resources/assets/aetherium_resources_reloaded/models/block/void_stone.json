@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aetherium_resources_reloaded:blocks/dark_stone",
+    "particle": "aetherium_resources_reloaded:blocks/dark_stone"
+  },
+  "render_type": "solid"
+}

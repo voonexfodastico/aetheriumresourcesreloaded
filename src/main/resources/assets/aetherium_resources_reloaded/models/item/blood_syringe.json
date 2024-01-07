@@ -1,0 +1,7 @@
+{
+  "parent": "aetherium_resources_reloaded:custom/seringasangue",
+  "textures": {
+    "6": "aetherium_resources_reloaded:blocks/seringasangue",
+    "particle": "aetherium_resources_reloaded:items/seringasangue"
+  }
+}

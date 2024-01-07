@@ -37,6 +37,7 @@ import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedMo
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModMobEffects;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModItems;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModBlocks;
+import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -62,6 +63,8 @@ public class AetheriumResourcesReloadedMod {
 
 		AetheriumResourcesReloadedModPaintings.REGISTRY.register(bus);
 		AetheriumResourcesReloadedModMobEffects.REGISTRY.register(bus);
+
+		AetheriumResourcesReloadedModBiomes.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}

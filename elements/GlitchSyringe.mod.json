@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "item",
+  "definition": {
+    "renderType": 1,
+    "texture": "seringaglitch",
+    "customModelName": "seringaglitch1:default",
+    "name": "Glitching Syringe",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:ItensCreativeTab"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 60,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onEntityHitWith": {
+      "name": "GlitchSyringeLivingEntityIsHitWithItem"
+    },
+    "onFinishUsingItem": {
+      "name": "GlitchSyringePlayerFinishesUsingItem"
+    },
+    "isFood": true,
+    "nutritionalValue": 2,
+    "saturation": 0.1,
+    "eatResultItem": {
+      "value": "CUSTOM:Syringe"
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "drink"
+  }
+}

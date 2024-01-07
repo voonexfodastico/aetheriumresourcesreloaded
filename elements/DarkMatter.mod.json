@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "darkmatter",
+    "texture": "darkmatteritem",
     "customModelName": "Normal",
-    "name": "Dark Matter",
+    "name": "Void Matter",
     "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:ItensCreativeTab"

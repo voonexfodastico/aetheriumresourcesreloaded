@@ -26,7 +26,7 @@ public class CorruptedEffectMobEffect extends MobEffect {
 
 	@Override
 	public void applyEffectTick(LivingEntity entity, int amplifier) {
-		CorruptedEffectOnEffectActiveTickProcedure.execute(entity.level, entity.getX(), entity.getY(), entity.getZ(), entity);
+		CorruptedEffectOnEffectActiveTickProcedure.execute(entity);
 	}
 
 	@Override
