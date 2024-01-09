@@ -2,6 +2,7 @@
 package net.mcreator.aetheriumresourcesreloaded.item;
 
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
@@ -18,6 +19,16 @@ public class BloodBottleItem extends Item {
 		super(new Item.Properties().tab(AetheriumResourcesReloadedModTabs.TAB_ITENS_CREATIVE_TAB).stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.3f).alwaysEat()
 
 				.build()));
+	}
+
+	@Override
+	public UseAnim getUseAnimation(ItemStack itemstack) {
+		return UseAnim.DRINK;
+	}
+
+	@Override
+	public int getUseDuration(ItemStack itemstack) {
+		return 60;
 	}
 
 	@Override

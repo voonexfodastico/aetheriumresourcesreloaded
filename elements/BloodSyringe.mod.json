@@ -14,14 +14,14 @@
     "enchantability": 0,
     "useDuration": 32,
     "toolType": 1.0,
-    "damageCount": 0,
+    "damageCount": 128,
     "recipeRemainder": {
-      "value": ""
+      "value": "CUSTOM:Syringe"
     },
     "destroyAnyBlock": false,
     "immuneToFire": false,
-    "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
     "enableMeleeDamage": true,
     "damageVsEntity": 2.0,
     "specialInfo": [],

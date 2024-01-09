@@ -9,12 +9,24 @@ import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.EquipmentSlot;
 
+import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModItems;
+
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
 
 public class BloodSyringeItem extends Item {
 	public BloodSyringeItem() {
-		super(new Item.Properties().tab(null).stacksTo(1).rarity(Rarity.RARE));
+		super(new Item.Properties().tab(null).durability(128).rarity(Rarity.RARE));
+	}
+
+	@Override
+	public boolean hasCraftingRemainingItem() {
+		return true;
+	}
+
+	@Override
+	public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
+		return new ItemStack(AetheriumResourcesReloadedModItems.SYRINGE.get());
 	}
 
 	@Override
