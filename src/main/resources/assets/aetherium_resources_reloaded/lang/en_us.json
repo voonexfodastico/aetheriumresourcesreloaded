@@ -21,7 +21,7 @@
   "subtitles.disc_corruptio": "Mus1c",
   "item.aetherium_resources_reloaded.glitching_sword": "Glitching Sword",
   "subtitles.corruptio_disc": "Mus1c",
-  "item.aetherium_resources_reloaded.blood_syringe": "Blood Syringe",
+  "item.aetherium_resources_reloaded.blood_syringe": "Syringe",
   "block.aetherium_resources_reloaded.block_glitch_03": "§dGlitch Block C",
   "block.aetherium_resources_reloaded.block_glitch_02": "§dGlitch Block B",
   "block.aetherium_resources_reloaded.block_glitch_01": "§dGlitch Block A",
@@ -84,5 +84,6 @@
   "item.aetherium_resources_reloaded.music_disc_corruptio.desc": "Andrii Floria - MAD",
   "subtitles.music_disc_infinitus": "Mus1c",
   "item.aetherium_resources_reloaded.music_disc_false_reality.desc": "Andrii Floria - You made me cry",
+  "item.aetherium_resources_reloaded.blood_bottle": "Blood Bottle",
   "subtitles.music_disc_yre": "Mus1c"
 }

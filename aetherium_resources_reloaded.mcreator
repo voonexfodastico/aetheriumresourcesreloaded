@@ -1480,6 +1480,55 @@
         ]
       },
       "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "SyringeRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "syringe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aetherium_resources_reloaded/recipes/syringe_recipe.json"
+        ]
+      },
+      "path": "~/Misc/Crafting/Itens"
+    },
+    {
+      "name": "BloodBottlePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bottle_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/BloodBottlePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Misc/Procedures"
+    },
+    {
+      "name": "BloodBottle",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aetherium_resources_reloaded/models/item/blood_bottle.json",
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/item/BloodBottleItem.java"
+        ]
+      },
+      "path": "~/Itens/Misc"
     }
   ],
   "variable_elements": [],
@@ -1728,7 +1777,7 @@
       "subtitles.disc_corruptio": "Mus1c",
       "item.aetherium_resources_reloaded.glitching_sword": "Glitching Sword",
       "subtitles.corruptio_disc": "Mus1c",
-      "item.aetherium_resources_reloaded.blood_syringe": "Blood Syringe",
+      "item.aetherium_resources_reloaded.blood_syringe": "Syringe",
       "block.aetherium_resources_reloaded.block_glitch_03": "§dGlitch Block C",
       "block.aetherium_resources_reloaded.block_glitch_02": "§dGlitch Block B",
       "block.aetherium_resources_reloaded.block_glitch_01": "§dGlitch Block A",
@@ -1791,6 +1840,7 @@
       "item.aetherium_resources_reloaded.music_disc_corruptio.desc": "Andrii Floria - MAD",
       "subtitles.music_disc_infinitus": "Mus1c",
       "item.aetherium_resources_reloaded.music_disc_false_reality.desc": "Andrii Floria - You made me cry",
+      "item.aetherium_resources_reloaded.blood_bottle": "Blood Bottle",
       "subtitles.music_disc_yre": "Mus1c"
     },
     "pt_br": {
@@ -1879,6 +1929,7 @@
       "item.aetherium_resources_reloaded.music_disc_corruptio.desc": "Andrii Floria - MAD",
       "subtitles.music_disc_infinitus": "Mús1c4",
       "item.aetherium_resources_reloaded.music_disc_false_reality.desc": "Andrii Floria - You made me cry",
+      "item.aetherium_resources_reloaded.blood_bottle": "Blood Bottle",
       "subtitles.music_disc_yre": "Mús1c4"
     }
   },

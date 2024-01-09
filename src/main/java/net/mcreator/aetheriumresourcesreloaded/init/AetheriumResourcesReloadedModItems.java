@@ -32,6 +32,7 @@ import net.mcreator.aetheriumresourcesreloaded.item.CrowbarItem;
 import net.mcreator.aetheriumresourcesreloaded.item.CorruptedFragmentItem;
 import net.mcreator.aetheriumresourcesreloaded.item.CalamityItem;
 import net.mcreator.aetheriumresourcesreloaded.item.BloodSyringeItem;
+import net.mcreator.aetheriumresourcesreloaded.item.BloodBottleItem;
 import net.mcreator.aetheriumresourcesreloaded.item.AetheriumLogoItem;
 import net.mcreator.aetheriumresourcesreloaded.AetheriumResourcesReloadedMod;
 
@@ -72,6 +73,7 @@ public class AetheriumResourcesReloadedModItems {
 	public static final RegistryObject<Item> GLITCH_SYRINGE = REGISTRY.register("glitch_syringe", () -> new GlitchSyringeItem());
 	public static final RegistryObject<Item> VOID_STONE = block(AetheriumResourcesReloadedModBlocks.VOID_STONE, AetheriumResourcesReloadedModTabs.TAB_BLOCOS_CREATIVE_TAB);
 	public static final RegistryObject<Item> VOID_MATTER_BLOCK = block(AetheriumResourcesReloadedModBlocks.VOID_MATTER_BLOCK, AetheriumResourcesReloadedModTabs.TAB_BLOCOS_CREATIVE_TAB);
+	public static final RegistryObject<Item> BLOOD_BOTTLE = REGISTRY.register("blood_bottle", () -> new BloodBottleItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
