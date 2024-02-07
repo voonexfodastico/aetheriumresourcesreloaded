@@ -33,6 +33,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModTabs;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModSounds;
+import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModPotions;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModPaintings;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModMobEffects;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModItems;
@@ -67,6 +68,7 @@ public class AetheriumResourcesReloadedMod {
 
 		AetheriumResourcesReloadedModPaintings.REGISTRY.register(bus);
 		AetheriumResourcesReloadedModMobEffects.REGISTRY.register(bus);
+		AetheriumResourcesReloadedModPotions.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}

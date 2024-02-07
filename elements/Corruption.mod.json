@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Corruption",
+    "splashName": "Splash Potion of Corruption",
+    "lingeringName": "Lingering Potion of Corruption",
+    "arrowName": "Arrow of Corruption",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:CorruptedEffect"
+        },
+        "duration": 200,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
