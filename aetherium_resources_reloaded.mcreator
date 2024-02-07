@@ -3668,12 +3668,6 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "120.0"
-    },
-    {
-      "name": "mask2",
-      "type": "number",
-      "scope": "player_lifetime",
-      "value": "0"
     }
   ],
   "sound_elements": [

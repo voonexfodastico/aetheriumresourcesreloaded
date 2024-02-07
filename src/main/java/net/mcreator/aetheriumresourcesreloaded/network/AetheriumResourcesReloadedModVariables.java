@@ -79,7 +79,6 @@ public class AetheriumResourcesReloadedModVariables {
 			if (!event.isWasDeath()) {
 				clone.doublejump = original.doublejump;
 				clone.mask = original.mask;
-				clone.mask2 = original.mask2;
 			}
 			if (!event.getEntity().level.isClientSide()) {
 				for (Entity entityiterator : new ArrayList<>(event.getEntity().level.players())) {
@@ -122,7 +121,6 @@ public class AetheriumResourcesReloadedModVariables {
 	public static class PlayerVariables {
 		public double doublejump = 0;
 		public double mask = 120.0;
-		public double mask2 = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -133,7 +131,6 @@ public class AetheriumResourcesReloadedModVariables {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("doublejump", doublejump);
 			nbt.putDouble("mask", mask);
-			nbt.putDouble("mask2", mask2);
 			return nbt;
 		}
 
@@ -141,7 +138,6 @@ public class AetheriumResourcesReloadedModVariables {
 			CompoundTag nbt = (CompoundTag) Tag;
 			doublejump = nbt.getDouble("doublejump");
 			mask = nbt.getDouble("mask");
-			mask2 = nbt.getDouble("mask2");
 		}
 	}
 
@@ -177,7 +173,6 @@ public class AetheriumResourcesReloadedModVariables {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.level.getEntity(message.target).getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.doublejump = message.data.doublejump;
 					variables.mask = message.data.mask;
-					variables.mask2 = message.data.mask2;
 				}
 			});
 			context.setPacketHandled(true);
