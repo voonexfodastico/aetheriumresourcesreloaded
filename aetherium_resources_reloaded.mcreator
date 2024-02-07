@@ -3665,6 +3665,38 @@
         "files": []
       },
       "path": "~/Misc/Effects/Potions"
+    },
+    {
+      "name": "MusicPlayerEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_player_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/MusicPlayerEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Debug"
     }
   ],
   "variable_elements": [
