@@ -28,7 +28,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class CrowbarItem extends Item {
 	public CrowbarItem() {
-		super(new Item.Properties().tab(AetheriumResourcesReloadedModTabs.TAB_COMBAT_CREATIVE_TAB).durability(200));
+		super(new Item.Properties().tab(AetheriumResourcesReloadedModTabs.TAB_COMBAT_CREATIVE_TAB).durability(120));
 	}
 
 	@Override
@@ -51,7 +51,7 @@ public class CrowbarItem extends Item {
 
 	@Override
 	public int getEnchantmentValue() {
-		return 22;
+		return 14;
 	}
 
 	@Override
@@ -60,7 +60,7 @@ public class CrowbarItem extends Item {
 			ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 			builder.putAll(super.getDefaultAttributeModifiers(equipmentSlot));
 			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Tool modifier", 5f, AttributeModifier.Operation.ADDITION));
-			builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Tool modifier", -3.3, AttributeModifier.Operation.ADDITION));
+			builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Tool modifier", -2.9, AttributeModifier.Operation.ADDITION));
 			return builder.build();
 		}
 		return super.getDefaultAttributeModifiers(equipmentSlot);
@@ -69,7 +69,7 @@ public class CrowbarItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A7o\u00A76O terceiro p\u00E9 de cabra!"));
+		list.add(Component.literal("\u00A76O Terceiro P\u00E9 de Cabra!"));
 	}
 
 	@Override

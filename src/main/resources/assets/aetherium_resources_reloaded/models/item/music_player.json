@@ -1,0 +1,7 @@
+{
+  "parent": "aetherium_resources_reloaded:custom/musicplayer",
+  "textures": {
+    "2": "aetherium_resources_reloaded:blocks/music-player",
+    "particle": "aetherium_resources_reloaded:items/music-player"
+  }
+}

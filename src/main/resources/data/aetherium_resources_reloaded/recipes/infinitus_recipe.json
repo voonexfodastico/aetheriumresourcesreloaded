@@ -1,37 +1,28 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "AMA",
+    "UNS",
+    "AIA"
   ],
   "key": {
-    "0": {
+    "A": {
       "item": "minecraft:amethyst_block"
     },
-    "1": {
+    "M": {
       "item": "aetherium_resources_reloaded:music_disc_distortion"
     },
-    "2": {
-      "item": "minecraft:amethyst_block"
-    },
-    "3": {
+    "U": {
       "item": "aetherium_resources_reloaded:music_disc_yre"
     },
-    "4": {
+    "N": {
       "item": "minecraft:nether_star"
     },
-    "5": {
+    "S": {
       "item": "aetherium_resources_reloaded:music_disc_falling_apart"
     },
-    "6": {
-      "item": "minecraft:amethyst_block"
-    },
-    "7": {
-      "item": "minecraft:netherite_ingot"
-    },
-    "8": {
-      "item": "minecraft:amethyst_block"
+    "I": {
+      "item": "aetherium_resources_reloaded:music_disc_wake_up"
     }
   },
   "result": {

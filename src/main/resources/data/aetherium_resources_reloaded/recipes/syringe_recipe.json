@@ -1,18 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  2",
-    " 4 ",
-    "6  "
+    "  A",
+    " G ",
+    "I  "
   ],
   "key": {
-    "2": {
+    "A": {
       "item": "minecraft:amethyst_shard"
     },
-    "4": {
+    "G": {
       "item": "minecraft:glass_bottle"
     },
-    "6": {
+    "I": {
       "item": "minecraft:iron_ingot"
     }
   },

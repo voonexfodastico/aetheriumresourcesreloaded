@@ -2,12 +2,12 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "dirt",
-    "textureTop": "grass_block_top",
-    "textureLeft": "grass_block_side",
-    "textureFront": "grass_block_side",
-    "textureRight": "grass_block_side",
-    "textureBack": "grass_block_side",
+    "texture": "glitchdirt",
+    "textureTop": "grasstop1",
+    "textureLeft": "grassside1",
+    "textureFront": "grassside1",
+    "textureRight": "grassside1",
+    "textureBack": "grassside1",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -15,7 +15,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "glitchblock01",
+    "particleTexture": "glitcha",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -34,13 +34,12 @@
       }
     ],
     "name": "Gr4ss Bl0ck",
-    "specialInfo": [],
     "hardness": 0.8,
     "resistance": 0.8,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:BlocosCreativeTab"
+      "value": "No creative tab entry"
     },
     "destroyTool": "shovel",
     "customDrop": {
@@ -65,7 +64,7 @@
     },
     "colorOnMap": "GRASS",
     "creativePickItem": {
-      "value": ""
+      "value": "Blocks.GRASS"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DANGER_OTHER",

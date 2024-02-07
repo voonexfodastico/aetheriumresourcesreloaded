@@ -1,0 +1,23 @@
+{
+  "_fv": 43,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Sunshine",
+    "icon": "sunshine.png",
+    "color": {
+      "value": -798938,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "SunshineEffectOnTick"
+    },
+    "onExpired": {
+      "name": "SunshineEffectExpires"
+    }
+  }
+}

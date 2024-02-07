@@ -1,6 +1,10 @@
 
 package net.mcreator.aetheriumresourcesreloaded.block;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import net.minecraft.world.level.material.Material;
@@ -14,19 +18,38 @@ import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
+
+import net.mcreator.aetheriumresourcesreloaded.procedures.InfectedRedSandBlockUpdateTickProcedure;
 
 import java.util.List;
 import java.util.Collections;
 
 public class InfectedRedSandBlockBlock extends FallingBlock {
 	public InfectedRedSandBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.SAND).sound(SoundType.SAND).strength(0.6f).requiresCorrectToolForDrops().speedFactor(0.8f).jumpFactor(0.8f));
+		super(BlockBehaviour.Properties.of(Material.SAND).sound(SoundType.SAND).strength(0.6f).requiresCorrectToolForDrops().speedFactor(0.8f).jumpFactor(0.8f).noOcclusion().randomTicks().isRedstoneConductor((bs, br, bp) -> false));
+	}
+
+	@Override
+	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
+		return true;
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 15;
+		return 0;
+	}
+
+	@Override
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
+	}
+
+	@Override
+	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
+		return new ItemStack(Blocks.RED_SAND);
 	}
 
 	@Override
@@ -47,5 +70,14 @@ public class InfectedRedSandBlockBlock extends FallingBlock {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(Blocks.RED_SAND));
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		InfectedRedSandBlockUpdateTickProcedure.execute(world, x, y, z);
 	}
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "aetherium_resources_reloaded:custom/hauntedmask2",
+  "textures": {
+    "2": "aetherium_resources_reloaded:blocks/hauntedmask2",
+    "particle": "aetherium_resources_reloaded:items/hauntedmask2item"
+  }
+}

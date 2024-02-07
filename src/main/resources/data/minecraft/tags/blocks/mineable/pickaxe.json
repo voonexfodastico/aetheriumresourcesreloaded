@@ -3,6 +3,14 @@
   "values": [
     "aetherium_resources_reloaded:block_glitch_01_decorative",
     "aetherium_resources_reloaded:block_glitch_02_decorative",
-    "aetherium_resources_reloaded:infected_stone_block"
+    "aetherium_resources_reloaded:infected_stone_block",
+    "aetherium_resources_reloaded:infected_terracotta",
+    "aetherium_resources_reloaded:infected_white_terracotta",
+    "aetherium_resources_reloaded:infected_red_terracotta",
+    "aetherium_resources_reloaded:infected_yellow_terracotta",
+    "aetherium_resources_reloaded:infected_orange_terracotta",
+    "aetherium_resources_reloaded:infected_light_gray_terracotta",
+    "aetherium_resources_reloaded:infected_brown_terracotta",
+    "aetherium_resources_reloaded:gato_joia_block"
   ]
 }

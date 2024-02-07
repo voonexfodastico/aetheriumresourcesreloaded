@@ -1,37 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "VEV",
+    "EME",
+    "VEV"
   ],
   "key": {
-    "0": {
+    "V": {
       "item": "minecraft:vine"
     },
-    "1": {
+    "E": {
       "item": "minecraft:emerald"
     },
-    "2": {
-      "item": "minecraft:vine"
-    },
-    "3": {
-      "item": "minecraft:emerald"
-    },
-    "4": {
+    "M": {
       "item": "aetherium_resources_reloaded:music_disc_wake_up"
-    },
-    "5": {
-      "item": "minecraft:emerald"
-    },
-    "6": {
-      "item": "minecraft:vine"
-    },
-    "7": {
-      "item": "minecraft:emerald"
-    },
-    "8": {
-      "item": "minecraft:vine"
     }
   },
   "result": {

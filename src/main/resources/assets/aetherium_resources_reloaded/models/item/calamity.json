@@ -1,7 +1,7 @@
 {
-  "parent": "aetherium_resources_reloaded:custom/calamity1",
+  "parent": "aetherium_resources_reloaded:custom/machadodosglitch2",
   "textures": {
-    "0": "aetherium_resources_reloaded:blocks/texturacalamity",
-    "particle": "aetherium_resources_reloaded:items/texturacalamity"
+    "2": "aetherium_resources_reloaded:blocks/textura_machado",
+    "particle": "aetherium_resources_reloaded:items/textura_machado"
   }
 }

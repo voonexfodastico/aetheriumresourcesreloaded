@@ -1,37 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "CAC",
+    "AMA",
+    "CAC"
   ],
   "key": {
-    "0": {
+    "C": {
       "item": "minecraft:crying_obsidian"
     },
-    "1": {
+    "A": {
       "item": "minecraft:amethyst_block"
     },
-    "2": {
-      "item": "minecraft:crying_obsidian"
-    },
-    "3": {
-      "item": "minecraft:amethyst_block"
-    },
-    "4": {
+    "M": {
       "item": "aetherium_resources_reloaded:music_disc_corruptio"
-    },
-    "5": {
-      "item": "minecraft:amethyst_block"
-    },
-    "6": {
-      "item": "minecraft:crying_obsidian"
-    },
-    "7": {
-      "item": "minecraft:amethyst_block"
-    },
-    "8": {
-      "item": "minecraft:crying_obsidian"
     }
   },
   "result": {

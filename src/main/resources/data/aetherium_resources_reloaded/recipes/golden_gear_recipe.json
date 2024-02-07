@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GOG",
+    "OEO",
+    "GOG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "O": {
+      "item": "minecraft:gold_ingot"
+    },
+    "E": {
+      "item": "aetherium_resources_reloaded:gears"
+    }
+  },
+  "result": {
+    "item": "aetherium_resources_reloaded:golden_gears",
+    "count": 1
+  }
+}

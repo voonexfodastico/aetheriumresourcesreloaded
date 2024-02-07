@@ -7,7 +7,7 @@
     "customModelName": "crowbar1:default",
     "name": "Crowbar",
     "specialInfo": [
-      "§o§6O terceiro pé de cabra!"
+      "§6O Terceiro Pé de Cabra!"
     ],
     "creativeTab": {
       "value": "CUSTOM:CombatCreativeTab"
@@ -15,10 +15,10 @@
     "toolType": "Special",
     "harvestLevel": 1,
     "efficiency": 8.0,
-    "attackSpeed": 0.7,
-    "enchantability": 22,
+    "attackSpeed": 1.1,
+    "enchantability": 14,
     "damageVsEntity": 7.0,
-    "usageCount": 200,
+    "usageCount": 120,
     "blocksAffected": [
       {
         "value": "Blocks.IRON_DOOR"

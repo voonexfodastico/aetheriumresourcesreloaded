@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aetherium_resources_reloaded:blocks/gato-joia",
+    "particle": "aetherium_resources_reloaded:blocks/gato-joia"
+  },
+  "render_type": "solid"
+}

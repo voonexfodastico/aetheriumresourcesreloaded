@@ -36,8 +36,9 @@ import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedMo
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModPaintings;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModMobEffects;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModItems;
+import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModFeatures;
+import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModEntities;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModBlocks;
-import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -60,11 +61,12 @@ public class AetheriumResourcesReloadedMod {
 		AetheriumResourcesReloadedModSounds.REGISTRY.register(bus);
 		AetheriumResourcesReloadedModBlocks.REGISTRY.register(bus);
 		AetheriumResourcesReloadedModItems.REGISTRY.register(bus);
+		AetheriumResourcesReloadedModEntities.REGISTRY.register(bus);
+
+		AetheriumResourcesReloadedModFeatures.REGISTRY.register(bus);
 
 		AetheriumResourcesReloadedModPaintings.REGISTRY.register(bus);
 		AetheriumResourcesReloadedModMobEffects.REGISTRY.register(bus);
-
-		AetheriumResourcesReloadedModBiomes.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}

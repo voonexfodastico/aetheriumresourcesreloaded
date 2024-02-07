@@ -3,6 +3,7 @@ package net.mcreator.aetheriumresourcesreloaded.block;
 
 import net.minecraftforge.common.IPlantable;
 
+import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import net.minecraft.world.level.material.Material;
@@ -16,20 +17,29 @@ import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+
+import net.mcreator.aetheriumresourcesreloaded.procedures.InfectedStoneBlockUpdateTickProcedure;
 
 import java.util.List;
 import java.util.Collections;
 
 public class InfectedStoneBlockBlock extends Block {
 	public InfectedStoneBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1.8f, 8f).requiresCorrectToolForDrops().speedFactor(0.8f).jumpFactor(0.8f));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1.8f, 8f).requiresCorrectToolForDrops().speedFactor(0.8f).jumpFactor(0.8f).randomTicks());
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
+	}
+
+	@Override
+	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
+		return new ItemStack(Blocks.STONE);
 	}
 
 	@Override
@@ -55,5 +65,14 @@ public class InfectedStoneBlockBlock extends Block {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(Blocks.COBBLESTONE));
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		InfectedStoneBlockUpdateTickProcedure.execute(world, x, y, z);
 	}
 }

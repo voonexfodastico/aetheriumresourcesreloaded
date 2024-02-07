@@ -1,25 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
-    "345",
-    " 7 "
+    " G ",
+    "GWG",
+    " G "
   ],
   "key": {
-    "1": {
+    "G": {
       "item": "aetherium_resources_reloaded:glitching_matter"
     },
-    "3": {
-      "item": "aetherium_resources_reloaded:glitching_matter"
-    },
-    "4": {
+    "W": {
       "tag": "minecraft:wool"
-    },
-    "5": {
-      "item": "aetherium_resources_reloaded:glitching_matter"
-    },
-    "7": {
-      "item": "aetherium_resources_reloaded:glitching_matter"
     }
   },
   "result": {

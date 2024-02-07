@@ -1,18 +1,15 @@
 
 package net.mcreator.aetheriumresourcesreloaded.item;
 
-import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.network.chat.Component;
+import net.minecraft.world.entity.LivingEntity;
 
+import net.mcreator.aetheriumresourcesreloaded.procedures.GlitchingSwordLivingEntityIsHitWithToolProcedure;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModTabs;
-
-import java.util.List;
 
 public class GlitchingSwordItem extends SwordItem {
 	public GlitchingSwordItem() {
@@ -26,7 +23,7 @@ public class GlitchingSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 10f;
+				return 18f;
 			}
 
 			public int getLevel() {
@@ -44,8 +41,9 @@ public class GlitchingSwordItem extends SwordItem {
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A7o\u00A75Isso n\u00E3o parece real."));
+	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
+		GlitchingSwordLivingEntityIsHitWithToolProcedure.execute(entity);
+		return retval;
 	}
 }

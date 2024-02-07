@@ -6,9 +6,7 @@
     "texture": "espadaglitch",
     "customModelName": "Normal",
     "name": "Glitching Sword",
-    "specialInfo": [
-      "§o§5Isso não parece real."
-    ],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:CombatCreativeTab"
     },
@@ -17,13 +15,16 @@
     "efficiency": 4.0,
     "attackSpeed": 1.3,
     "enchantability": 15,
-    "damageVsEntity": 12.0,
+    "damageVsEntity": 20.0,
     "usageCount": 0,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "GlitchingSwordLivingEntityIsHitWithTool"
+    }
   }
 }

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RGR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "G": {
+      "item": "aetherium_resources_reloaded:gears"
+    }
+  },
+  "result": {
+    "item": "aetherium_resources_reloaded:redstone_gears",
+    "count": 1
+  }
+}

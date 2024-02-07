@@ -2,14 +2,14 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "glitchblock01",
+    "texture": "glitcha",
     "textureTop": "glitchblock01",
     "textureLeft": "glitchblock01",
     "textureFront": "glitchblock01",
     "textureRight": "glitchblock01",
     "textureBack": "glitchblock01",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": true,
@@ -34,9 +34,6 @@
       }
     ],
     "name": "§dGlitch Block A (Decorative)",
-    "specialInfo": [
-      "§5Isso é Real..?"
-    ],
     "hardness": 2.0,
     "resistance": 6.0,
     "hasGravity": false,

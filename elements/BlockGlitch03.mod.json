@@ -2,7 +2,7 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "glitchbblock03",
+    "texture": "glitchc1",
     "textureTop": "glitchblock03",
     "textureLeft": "glitchblock03",
     "textureFront": "glitchblock03",
@@ -34,9 +34,6 @@
       }
     ],
     "name": "§dGlitch Block C",
-    "specialInfo": [
-      "§5Isso é Real..?"
-    ],
     "hardness": 22.0,
     "resistance": 1200.0,
     "hasGravity": false,

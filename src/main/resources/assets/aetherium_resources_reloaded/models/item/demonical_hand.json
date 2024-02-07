@@ -1,0 +1,9 @@
+{
+  "parent": "aetherium_resources_reloaded:custom/demonichand",
+  "textures": {
+    "1": "aetherium_resources_reloaded:blocks/bio1",
+    "2": "aetherium_resources_reloaded:blocks/bio2",
+    "3": "aetherium_resources_reloaded:blocks/bio3",
+    "particle": "aetherium_resources_reloaded:items/bio1"
+  }
+}

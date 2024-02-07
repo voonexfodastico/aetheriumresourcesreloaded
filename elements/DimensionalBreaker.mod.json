@@ -7,20 +7,20 @@
     "customModelName": "marretonaglitch:default",
     "name": "§dDimensional Breaker",
     "specialInfo": [
-      "§o§5§kO QUEBRA DIMENSÕES"
+      "§d§kREALIDADE"
     ],
     "creativeTab": {
       "value": "CUSTOM:CombatCreativeTab"
     },
-    "toolType": "Pickaxe",
+    "toolType": "MultiTool",
     "harvestLevel": 1,
-    "efficiency": 15.0,
+    "efficiency": 16.0,
     "attackSpeed": 0.9,
     "enchantability": 2,
     "damageVsEntity": 20.0,
     "usageCount": 0,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,

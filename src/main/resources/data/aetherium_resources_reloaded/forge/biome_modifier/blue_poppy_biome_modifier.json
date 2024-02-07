@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "aetherium_resources_reloaded:blue_poppy",
+  "step": "vegetal_decoration"
+}

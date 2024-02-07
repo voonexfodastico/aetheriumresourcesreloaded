@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "O"
+  ],
+  "key": {
+    "O": {
+      "item": "aetherium_resources_reloaded:orange_poppy"
+    }
+  },
+  "result": {
+    "item": "minecraft:orange_dye",
+    "count": 1
+  }
+}

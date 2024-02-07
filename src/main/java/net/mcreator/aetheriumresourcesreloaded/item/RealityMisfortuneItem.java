@@ -1,6 +1,9 @@
 
 package net.mcreator.aetheriumresourcesreloaded.item;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.TooltipFlag;
@@ -30,7 +33,7 @@ public class RealityMisfortuneItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 26f;
+				return 38f;
 			}
 
 			public int getLevel() {
@@ -44,7 +47,7 @@ public class RealityMisfortuneItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -2.5f, new Item.Properties().tab(AetheriumResourcesReloadedModTabs.TAB_COMBAT_CREATIVE_TAB).fireResistant());
+		}, 3, -2.4f, new Item.Properties().tab(AetheriumResourcesReloadedModTabs.TAB_COMBAT_CREATIVE_TAB).fireResistant());
 	}
 
 	@Override
@@ -57,7 +60,7 @@ public class RealityMisfortuneItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("\u00A7o\u00A75\u00A7kO INFORT\u00DANIO DA REALIDADE"));
+		list.add(Component.literal("\u00A7d\u00A7kREALIDADE"));
 	}
 
 	@Override
@@ -65,5 +68,11 @@ public class RealityMisfortuneItem extends SwordItem {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
 			RealityMisfortuneToolInHandTickProcedure.execute(entity);
+	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public boolean isFoil(ItemStack itemstack) {
+		return true;
 	}
 }

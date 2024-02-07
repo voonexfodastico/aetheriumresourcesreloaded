@@ -33,27 +33,6 @@
       }
     ]
   },
-  "glitchblockhit": {
-    "subtitle": "subtitles.glitchblockhit",
-    "sounds": [
-      {
-        "name": "aetherium_resources_reloaded:3rr0r_hit1",
-        "stream": false
-      },
-      {
-        "name": "aetherium_resources_reloaded:3rr0r_hit2",
-        "stream": false
-      },
-      {
-        "name": "aetherium_resources_reloaded:3rr0r_hit3",
-        "stream": false
-      },
-      {
-        "name": "aetherium_resources_reloaded:3rr0r_hit4",
-        "stream": false
-      }
-    ]
-  },
   "glitchblockplacing": {
     "subtitle": "subtitles.glitchblockplacing",
     "sounds": [
@@ -336,6 +315,35 @@
       },
       {
         "name": "aetherium_resources_reloaded:glitching5",
+        "stream": false
+      }
+    ]
+  },
+  "glitchblockhit": {
+    "subtitle": "subtitles.glitchblockhit",
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_hit1",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_hit2",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_hit3",
+        "stream": false
+      },
+      {
+        "name": "aetherium_resources_reloaded:3rr0r_hit4",
+        "stream": false
+      }
+    ]
+  },
+  "musicplayer": {
+    "sounds": [
+      {
+        "name": "aetherium_resources_reloaded:y2meta.app_-_half-life_-_button_sound_128_kbps_online-audio-converter.com",
         "stream": false
       }
     ]

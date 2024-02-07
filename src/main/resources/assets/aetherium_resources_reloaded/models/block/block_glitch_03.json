@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "aetherium_resources_reloaded:blocks/glitchbblock03",
-    "particle": "aetherium_resources_reloaded:blocks/glitchbblock03"
+    "all": "aetherium_resources_reloaded:blocks/glitchc1",
+    "particle": "aetherium_resources_reloaded:blocks/glitchc1"
   },
   "render_type": "translucent"
 }

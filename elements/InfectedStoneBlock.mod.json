@@ -2,20 +2,20 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "stone",
+    "texture": "glitchstone",
     "textureTop": "stone",
     "textureLeft": "stone",
     "textureFront": "stone",
     "textureRight": "stone",
     "textureBack": "stone",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "glitchblock01",
+    "particleTexture": "glitcha",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -34,13 +34,12 @@
       }
     ],
     "name": "St0n3",
-    "specialInfo": [],
     "hardness": 1.8,
     "resistance": 8.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:BlocosCreativeTab"
+      "value": "No creative tab entry"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -57,7 +56,7 @@
       "value": "ROCK"
     },
     "tickRate": 0,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -65,7 +64,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "Blocks.STONE#0"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DANGER_OTHER",
@@ -117,6 +116,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "InfectedStoneBlockUpdateTick"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

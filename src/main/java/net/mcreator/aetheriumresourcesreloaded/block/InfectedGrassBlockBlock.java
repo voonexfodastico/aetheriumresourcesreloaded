@@ -3,6 +3,7 @@ package net.mcreator.aetheriumresourcesreloaded.block;
 
 import net.minecraftforge.common.IPlantable;
 
+import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import net.minecraft.world.level.material.MaterialColor;
@@ -35,6 +36,11 @@ public class InfectedGrassBlockBlock extends Block {
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
+	}
+
+	@Override
+	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
+		return new ItemStack(Blocks.GRASS_BLOCK);
 	}
 
 	@Override

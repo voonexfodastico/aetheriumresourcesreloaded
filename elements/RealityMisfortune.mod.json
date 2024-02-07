@@ -3,11 +3,11 @@
   "_type": "tool",
   "definition": {
     "renderType": 1,
-    "texture": "texturarealitymissfourtune",
-    "customModelName": "realitymisfortune2:default",
+    "texture": "texturareality",
+    "customModelName": "reality:default",
     "name": "§dReality Misfortune",
     "specialInfo": [
-      "§o§5§kO INFORTÚNIO DA REALIDADE"
+      "§d§kREALIDADE"
     ],
     "creativeTab": {
       "value": "CUSTOM:CombatCreativeTab"
@@ -15,12 +15,12 @@
     "toolType": "Sword",
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 1.5,
+    "attackSpeed": 1.6,
     "enchantability": 22,
-    "damageVsEntity": 28.0,
+    "damageVsEntity": 40.0,
     "usageCount": 0,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,

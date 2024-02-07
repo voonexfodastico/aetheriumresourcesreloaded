@@ -1,13 +1,8 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "aetherium_resources_reloaded:blocks/dirt",
-    "up": "aetherium_resources_reloaded:blocks/dirt",
-    "north": "aetherium_resources_reloaded:blocks/dirt",
-    "east": "aetherium_resources_reloaded:blocks/dirt",
-    "south": "aetherium_resources_reloaded:blocks/dirt",
-    "west": "aetherium_resources_reloaded:blocks/dirt",
-    "particle": "aetherium_resources_reloaded:blocks/glitchblock01"
+    "all": "aetherium_resources_reloaded:blocks/glitchdirt",
+    "particle": "aetherium_resources_reloaded:blocks/glitcha"
   },
   "render_type": "solid"
 }

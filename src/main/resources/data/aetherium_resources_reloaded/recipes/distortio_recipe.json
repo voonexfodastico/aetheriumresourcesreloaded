@@ -1,37 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "DAD",
+    "RMR",
+    "DAD"
   ],
   "key": {
-    "0": {
+    "D": {
       "item": "minecraft:diamond"
     },
-    "1": {
+    "A": {
       "item": "minecraft:amethyst_shard"
     },
-    "2": {
-      "item": "minecraft:diamond"
-    },
-    "3": {
+    "R": {
       "item": "minecraft:redstone"
     },
-    "4": {
+    "M": {
       "item": "aetherium_resources_reloaded:music_disc_wake_up"
-    },
-    "5": {
-      "item": "minecraft:redstone"
-    },
-    "6": {
-      "item": "minecraft:diamond"
-    },
-    "7": {
-      "item": "minecraft:amethyst_shard"
-    },
-    "8": {
-      "item": "minecraft:diamond"
     }
   },
   "result": {

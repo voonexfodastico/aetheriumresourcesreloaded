@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "aetherium_resources_reloaded:blocks/pinkpoppy",
+    "particle": "aetherium_resources_reloaded:blocks/pinkpoppy"
+  },
+  "render_type": "cutout"
+}

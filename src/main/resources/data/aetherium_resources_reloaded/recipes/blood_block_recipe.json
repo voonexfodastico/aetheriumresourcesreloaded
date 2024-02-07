@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aetherium_resources_reloaded:blood_bottle"
+    },
+    {
+      "item": "aetherium_resources_reloaded:blood_bottle"
+    },
+    {
+      "item": "aetherium_resources_reloaded:blood_bottle"
+    },
+    {
+      "item": "aetherium_resources_reloaded:blood_bottle"
+    }
+  ],
+  "result": {
+    "item": "aetherium_resources_reloaded:blood_block",
+    "count": 1
+  }
+}

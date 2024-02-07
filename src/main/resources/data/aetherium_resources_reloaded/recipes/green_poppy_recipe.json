@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G"
+  ],
+  "key": {
+    "G": {
+      "item": "aetherium_resources_reloaded:green_poppy"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_dye",
+    "count": 1
+  }
+}

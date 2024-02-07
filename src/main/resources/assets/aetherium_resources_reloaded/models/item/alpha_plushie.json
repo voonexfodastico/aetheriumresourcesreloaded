@@ -1,0 +1,7 @@
+{
+  "parent": "aetherium_resources_reloaded:custom/minialpha1",
+  "textures": {
+    "1": "aetherium_resources_reloaded:blocks/texturaminialpha",
+    "particle": "aetherium_resources_reloaded:items/minialphaitem"
+  }
+}

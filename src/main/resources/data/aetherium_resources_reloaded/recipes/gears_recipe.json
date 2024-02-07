@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "ISI",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "aetherium_resources_reloaded:screws"
+    }
+  },
+  "result": {
+    "item": "aetherium_resources_reloaded:gears",
+    "count": 4
+  }
+}

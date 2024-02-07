@@ -1,0 +1,23 @@
+{
+  "_fv": 43,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Flower Field",
+    "icon": "flowerfield.png",
+    "color": {
+      "value": -65485,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "FlowerFieldEffectOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "FlowerFieldEffectEffectExpires"
+    }
+  }
+}

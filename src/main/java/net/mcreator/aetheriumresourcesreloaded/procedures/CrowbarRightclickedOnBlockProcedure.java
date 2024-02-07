@@ -3,6 +3,7 @@ package net.mcreator.aetheriumresourcesreloaded.procedures;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
@@ -18,7 +19,12 @@ public class CrowbarRightclickedOnBlockProcedure {
 		if (entity == null)
 			return;
 		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.IRON_BARS) {
-			world.destroyBlock(new BlockPos(x, y, z), false);
+			world.levelEvent(2001, new BlockPos(x, y, z), Block.getId((world.getBlockState(new BlockPos(x, y, z)))));
+			{
+				BlockPos _pos = new BlockPos(x, y, z);
+				Block.dropResources(world.getBlockState(_pos), world, new BlockPos(x, y, z), null);
+				world.destroyBlock(_pos, false);
+			}
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("aetherium_resources_reloaded:crowbarhitblock")), SoundSource.NEUTRAL, 1, 1);

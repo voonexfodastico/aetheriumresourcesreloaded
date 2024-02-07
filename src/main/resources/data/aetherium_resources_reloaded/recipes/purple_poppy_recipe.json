@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P"
+  ],
+  "key": {
+    "P": {
+      "item": "aetherium_resources_reloaded:purple_poppy"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_dye",
+    "count": 1
+  }
+}

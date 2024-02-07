@@ -1,9 +1,9 @@
 {
-  "parent": "aetherium_resources_reloaded:custom/minialpha",
+  "parent": "aetherium_resources_reloaded:custom/minialpha1",
   "textures": {
     "all": "aetherium_resources_reloaded:blocks/texturaminialpha",
     "particle": "aetherium_resources_reloaded:blocks/texturaminialpha",
-    "10": "aetherium_resources_reloaded:blocks/texturaminialpha"
+    "1": "aetherium_resources_reloaded:blocks/texturaminialpha"
   },
   "render_type": "cutout"
 }

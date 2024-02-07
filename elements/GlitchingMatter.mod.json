@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "glitchingmatter",
+    "texture": "glitchingmatter1",
     "customModelName": "Normal",
     "name": "Glitching Matter",
     "rarity": "EPIC",
@@ -24,9 +24,6 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "§5Como isso funciona..?"
-    ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aetherium_resources_reloaded:blocks/orangeterracottaglitch",
+    "particle": "aetherium_resources_reloaded:blocks/orangeterracottaglitch"
+  },
+  "render_type": "solid"
+}

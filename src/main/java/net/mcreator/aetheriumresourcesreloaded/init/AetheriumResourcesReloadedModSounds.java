@@ -17,7 +17,6 @@ public class AetheriumResourcesReloadedModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, AetheriumResourcesReloadedMod.MODID);
 	public static final RegistryObject<SoundEvent> GLITCHBLOCKBREAKING = REGISTRY.register("glitchblockbreaking", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "glitchblockbreaking")));
 	public static final RegistryObject<SoundEvent> GLITCHBLOCKFALL = REGISTRY.register("glitchblockfall", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "glitchblockfall")));
-	public static final RegistryObject<SoundEvent> GLITCHBLOCKHIT = REGISTRY.register("glitchblockhit", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "glitchblockhit")));
 	public static final RegistryObject<SoundEvent> GLITCHBLOCKPLACING = REGISTRY.register("glitchblockplacing", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "glitchblockplacing")));
 	public static final RegistryObject<SoundEvent> GLITCHBLOCKSTEP = REGISTRY.register("glitchblockstep", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "glitchblockstep")));
 	public static final RegistryObject<SoundEvent> GLITCHBLOCKBREAKING2 = REGISTRY.register("glitchblockbreaking2", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "glitchblockbreaking2")));
@@ -38,4 +37,6 @@ public class AetheriumResourcesReloadedModSounds {
 	public static final RegistryObject<SoundEvent> CROWBARMISS = REGISTRY.register("crowbarmiss", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "crowbarmiss")));
 	public static final RegistryObject<SoundEvent> YIPIMINIALPHA = REGISTRY.register("yipiminialpha", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "yipiminialpha")));
 	public static final RegistryObject<SoundEvent> GLITCHING = REGISTRY.register("glitching", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "glitching")));
+	public static final RegistryObject<SoundEvent> GLITCHBLOCKHIT = REGISTRY.register("glitchblockhit", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "glitchblockhit")));
+	public static final RegistryObject<SoundEvent> MUSICPLAYER = REGISTRY.register("musicplayer", () -> new SoundEvent(new ResourceLocation("aetherium_resources_reloaded", "musicplayer")));
 }

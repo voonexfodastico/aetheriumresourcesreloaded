@@ -34,7 +34,6 @@
       }
     ],
     "name": "Void Matter Block",
-    "specialInfo": [],
     "hardness": 2.0,
     "resistance": 10.0,
     "hasGravity": false,

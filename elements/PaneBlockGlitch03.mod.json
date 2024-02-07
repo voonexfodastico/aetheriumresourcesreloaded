@@ -2,8 +2,8 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "glitchbblock03",
-    "textureTop": "glitchbblock03",
+    "texture": "glitchc1",
+    "textureTop": "glitchc1",
     "textureLeft": "glitchblock03",
     "textureFront": "glitchblock03",
     "textureRight": "glitchblock03",
@@ -35,9 +35,6 @@
       }
     ],
     "name": "§dGlitch Block C Pane",
-    "specialInfo": [
-      "§5Isso é Real..?"
-    ],
     "hardness": 22.0,
     "resistance": 1200.0,
     "hasGravity": false,

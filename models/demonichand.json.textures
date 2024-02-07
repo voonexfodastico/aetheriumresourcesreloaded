@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "bio1",
+        "2": "bio2",
+        "3": "bio3"
+      },
+      "name": "default"
+    }
+  }
+}

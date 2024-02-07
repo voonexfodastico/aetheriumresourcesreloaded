@@ -1,37 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "CCC",
+    "CMC",
+    "CCC"
   ],
   "key": {
-    "0": {
+    "C": {
       "item": "aetherium_resources_reloaded:corrupted_fragment"
     },
-    "1": {
-      "item": "aetherium_resources_reloaded:corrupted_fragment"
-    },
-    "2": {
-      "item": "aetherium_resources_reloaded:corrupted_fragment"
-    },
-    "3": {
-      "item": "aetherium_resources_reloaded:corrupted_fragment"
-    },
-    "4": {
+    "M": {
       "item": "minecraft:music_disc_5"
-    },
-    "5": {
-      "item": "aetherium_resources_reloaded:corrupted_fragment"
-    },
-    "6": {
-      "item": "aetherium_resources_reloaded:corrupted_fragment"
-    },
-    "7": {
-      "item": "aetherium_resources_reloaded:corrupted_fragment"
-    },
-    "8": {
-      "item": "aetherium_resources_reloaded:corrupted_fragment"
     }
   },
   "result": {

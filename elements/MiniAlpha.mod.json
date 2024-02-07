@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "minialpha:default",
+    "customModelName": "minialpha1:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -115,17 +115,16 @@
       }
     ],
     "name": "Alpha Plushie",
-    "specialInfo": [],
     "hardness": 0.8,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": true,
     "creativeTab": {
-      "value": "CUSTOM:ItensCreativeTab"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:AlphaPlushie"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -146,7 +145,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:AlphaPlushie"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -198,9 +197,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "MiniAlphaOnBlockRightClicked"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

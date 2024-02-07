@@ -1,7 +1,7 @@
 {
-  "parent": "aetherium_resources_reloaded:custom/realitymisfortune2",
+  "parent": "aetherium_resources_reloaded:custom/reality",
   "textures": {
-    "1": "aetherium_resources_reloaded:blocks/texturarealitymissfourtune",
-    "particle": "aetherium_resources_reloaded:items/texturarealitymissfourtune"
+    "0": "aetherium_resources_reloaded:blocks/texturareality",
+    "particle": "aetherium_resources_reloaded:items/texturareality"
   }
 }

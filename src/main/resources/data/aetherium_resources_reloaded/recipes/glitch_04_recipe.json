@@ -1,36 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "WBW",
+    "LIL",
+    "ABA"
   ],
   "key": {
-    "0": {
+    "W": {
       "item": "minecraft:white_dye"
     },
-    "1": {
+    "B": {
       "item": "aetherium_resources_reloaded:block_glitch_01_decorative"
     },
-    "2": {
-      "item": "minecraft:white_dye"
-    },
-    "3": {
+    "L": {
       "item": "aetherium_resources_reloaded:block_glitch_02_decorative"
     },
-    "4": {
+    "I": {
       "item": "aetherium_resources_reloaded:infected_sand_block"
     },
-    "5": {
-      "item": "aetherium_resources_reloaded:block_glitch_02_decorative"
-    },
-    "6": {
-      "item": "minecraft:black_dye"
-    },
-    "7": {
-      "item": "aetherium_resources_reloaded:block_glitch_01_decorative"
-    },
-    "8": {
+    "A": {
       "item": "minecraft:black_dye"
     }
   },

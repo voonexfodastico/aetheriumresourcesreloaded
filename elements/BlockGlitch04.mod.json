@@ -2,14 +2,14 @@
   "_fv": 43,
   "_type": "block",
   "definition": {
-    "texture": "glitchblock04",
+    "texture": "glitchd",
     "textureTop": "glitchblock04",
     "textureLeft": "glitchblock04",
     "textureFront": "glitchblock04",
     "textureRight": "glitchblock04",
     "textureBack": "glitchblock04",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": true,
@@ -34,9 +34,6 @@
       }
     ],
     "name": "§dGlitch Block D",
-    "specialInfo": [
-      "§5Isso é Real..?"
-    ],
     "hardness": 22.0,
     "resistance": 1200.0,
     "hasGravity": true,
