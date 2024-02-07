@@ -37,7 +37,7 @@ public class RealityMisfortuneLivingEntityIsHitWithToolProcedure {
 						_ent.getName().getString(), _ent.getDisplayName(), _ent.level.getServer(), _ent), ("execute as " + entity.getStringUUID() + " at @s run tp @s ~ ~ ~ facing entity " + sourceentity.getStringUUID()));
 			}
 		}
-		if (Math.random() < 0.4) {
+		if (Math.random() < 0.3) {
 			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
 				_entity.addEffect(new MobEffectInstance(AetheriumResourcesReloadedModMobEffects.CORRUPTED_EFFECT.get(), 60, 1));
 			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())

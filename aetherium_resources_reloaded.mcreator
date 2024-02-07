@@ -3568,26 +3568,6 @@
       "path": "~/Misc/Procedures"
     },
     {
-      "name": "Handskinprocedure",
-      "type": "procedure",
-      "sortid": 197,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "handskinprocedure",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/aetheriumresourcesreloaded/procedures/HandskinprocedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Misc/Procedures"
-    },
-    {
       "name": "MusicPlayerRightclicked",
       "type": "procedure",
       "sortid": 198,
@@ -3688,6 +3668,12 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "120.0"
+    },
+    {
+      "name": "mask2",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
     }
   ],
   "sound_elements": [

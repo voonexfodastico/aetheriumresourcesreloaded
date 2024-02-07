@@ -32,7 +32,7 @@ public class RedstoneGearsOnPlayerStoppedUsingProcedure {
 			}
 		}.getScore("robot", entity) == 1) {
 			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 100, 1, false, false));
+				_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 1, false, false));
 		}
 	}
 }

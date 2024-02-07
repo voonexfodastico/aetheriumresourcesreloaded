@@ -4,7 +4,9 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
@@ -13,6 +15,7 @@ import net.minecraft.commands.CommandSource;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.aetheriumresourcesreloaded.network.AetheriumResourcesReloadedModVariables;
+import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModItems;
 
 import java.util.Comparator;
 
@@ -20,18 +23,24 @@ public class MaskControllerProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (!world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 6, 6, 6), e -> true).isEmpty() && !(((Entity) world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 6, 6, 6), e -> true).stream().sorted(new Object() {
-			Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
-				return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
+		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == AetheriumResourcesReloadedModItems.HAUNTED_MASK_HELMET.get()) {
+			{
+				double _setval = 1;
+				entity.getCapability(AetheriumResourcesReloadedModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.mask2 = _setval;
+					capability.syncPlayerVariables(entity);
+				});
 			}
-		}.compareDistOf(x, y, z)).findFirst().orElse(null)) == entity)) {
+		}
+		if (!world.getEntitiesOfClass(LivingEntity.class, AABB.ofSize(new Vec3(x, y, z), 6, 6, 6), e -> true).isEmpty()
+				&& (entity.getCapability(AetheriumResourcesReloadedModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AetheriumResourcesReloadedModVariables.PlayerVariables())).mask2 != 1) {
 			{
 				Entity _ent = entity;
 				if (!_ent.level.isClientSide() && _ent.getServer() != null) {
 					_ent.getServer().getCommands().performPrefixedCommand(
 							new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level instanceof ServerLevel ? (ServerLevel) _ent.level : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
 									_ent.level.getServer(), _ent),
-							("execute as " + entity.getStringUUID() + " at @s run tp @s ~ ~ ~ facing entity " + ((Entity) world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3(x, y, z), 6, 6, 6), e -> true).stream().sorted(new Object() {
+							("execute as " + entity.getStringUUID() + " at @s run tp @s ~ ~ ~ facing entity " + ((Entity) world.getEntitiesOfClass(LivingEntity.class, AABB.ofSize(new Vec3(x, y, z), 6, 6, 6), e -> true).stream().sorted(new Object() {
 								Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 									return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 								}
