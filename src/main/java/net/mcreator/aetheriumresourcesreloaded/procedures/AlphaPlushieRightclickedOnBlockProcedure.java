@@ -14,6 +14,7 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModItems;
 import net.mcreator.aetheriumresourcesreloaded.init.AetheriumResourcesReloadedModBlocks;
 
 public class AlphaPlushieRightclickedOnBlockProcedure {
@@ -31,12 +32,22 @@ public class AlphaPlushieRightclickedOnBlockProcedure {
 					}
 				}
 			}
-			if (entity instanceof LivingEntity _entity) {
-				ItemStack _setstack = new ItemStack(Blocks.AIR);
-				_setstack.setCount(1);
-				_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
-				if (_entity instanceof Player _player)
-					_player.getInventory().setChanged();
+			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == AetheriumResourcesReloadedModItems.ALPHA_PLUSHIE.get()) {
+				if (entity instanceof LivingEntity _entity) {
+					ItemStack _setstack = new ItemStack(Blocks.AIR);
+					_setstack.setCount(1);
+					_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
+					if (_entity instanceof Player _player)
+						_player.getInventory().setChanged();
+				}
+			} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem() == AetheriumResourcesReloadedModItems.ALPHA_PLUSHIE.get()) {
+				if (entity instanceof LivingEntity _entity) {
+					ItemStack _setstack = new ItemStack(Blocks.AIR);
+					_setstack.setCount(1);
+					_entity.setItemInHand(InteractionHand.OFF_HAND, _setstack);
+					if (_entity instanceof Player _player)
+						_player.getInventory().setChanged();
+				}
 			}
 		}
 	}
