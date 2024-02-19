@@ -42,7 +42,7 @@ public class MaskskinprocedureProcedure {
 		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == AetheriumResourcesReloadedModItems.HAUNTED_MASK_HELMET.get()) {
 			if (_evt.getRenderer() instanceof PlayerRenderer) {
 				if (_evt instanceof RenderLivingEvent.Pre) {
-					// _evt.setCanceled(true);
+					_evt.setCanceled(true);
 				}
 				new com.kleiders.kleidersplayerrenderer.ClassicPlayerRenderer(new EntityRendererProvider.Context(dis, mc.getItemRenderer(), mc.getBlockRenderer(), dis.getItemInHandRenderer(), mc.getResourceManager(), mc.getEntityModels(), mc.font),
 						new ResourceLocation("aetherium_resources_reloaded:textures/entities/infected2.png"))

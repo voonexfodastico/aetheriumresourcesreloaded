@@ -33,6 +33,7 @@ import net.mcreator.aetheriumresourcesreloaded.item.GlitchingWarAxeItem;
 import net.mcreator.aetheriumresourcesreloaded.item.GlitchingSwordItem;
 import net.mcreator.aetheriumresourcesreloaded.item.GlitchingMatterItem;
 import net.mcreator.aetheriumresourcesreloaded.item.GlitchSyringeItem;
+import net.mcreator.aetheriumresourcesreloaded.item.GenericBeerItem;
 import net.mcreator.aetheriumresourcesreloaded.item.GearsItem;
 import net.mcreator.aetheriumresourcesreloaded.item.EnergyDrinkItem;
 import net.mcreator.aetheriumresourcesreloaded.item.EnchantedGoldenGearsItem;
@@ -44,6 +45,7 @@ import net.mcreator.aetheriumresourcesreloaded.item.CorruptedFragmentItem;
 import net.mcreator.aetheriumresourcesreloaded.item.CalamityItem;
 import net.mcreator.aetheriumresourcesreloaded.item.BloodSyringeItem;
 import net.mcreator.aetheriumresourcesreloaded.item.BloodBottleItem;
+import net.mcreator.aetheriumresourcesreloaded.item.BeerCanItem;
 import net.mcreator.aetheriumresourcesreloaded.item.AlphaPlushieItem;
 import net.mcreator.aetheriumresourcesreloaded.item.AetheriumLogoItem;
 import net.mcreator.aetheriumresourcesreloaded.AetheriumResourcesReloadedMod;
@@ -115,6 +117,8 @@ public class AetheriumResourcesReloadedModItems {
 	public static final RegistryObject<Item> MUSIC_PLAYER = REGISTRY.register("music_player", () -> new MusicPlayerItem());
 	public static final RegistryObject<Item> GATO_JOIA_BLOCK = block(AetheriumResourcesReloadedModBlocks.GATO_JOIA_BLOCK, null);
 	public static final RegistryObject<Item> GATO_JOIA_SPAWN_EGG = REGISTRY.register("gato_joia_spawn_egg", () -> new ForgeSpawnEggItem(AetheriumResourcesReloadedModEntities.GATO_JOIA, -1907998, -10662084, new Item.Properties().tab(null)));
+	public static final RegistryObject<Item> GENERIC_BEER = REGISTRY.register("generic_beer", () -> new GenericBeerItem());
+	public static final RegistryObject<Item> BEER_CAN = REGISTRY.register("beer_can", () -> new BeerCanItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
